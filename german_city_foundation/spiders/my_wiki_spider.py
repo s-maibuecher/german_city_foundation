@@ -1,4 +1,5 @@
 import scrapy
+import pandas as pd
 
 class MyWikiSpiderSpider(scrapy.Spider):
     name = "my-wiki-spider"
@@ -8,13 +9,13 @@ class MyWikiSpiderSpider(scrapy.Spider):
     def parse(self, response):
 
     	at_start_page = False
+    	unterseiten = response.xpath('//div[@class="mw-parser-output"]/ul[1]/li/a/@href').extract()
 
     	if response.request.url == 'https://de.wikipedia.org/wiki/Liste_deutscher_Stadtgr%C3%BCndungen':
-    		alle_jahrhundert_unterseiten = response.xpath('//div[@class="mw-parser-output"]/ul[1]/li/a/@href').extract()
-    		for j in alle_jahrhundert_unterseiten:
-    			print(j)
+    		for j in unterseiten:
+    			yield response.follow(j, callback=self.parse)
     	else:
-    		print("*"*50)
+    		print("UNTERSEITE: ")
     	
 
     	#print("*"*50)
@@ -35,5 +36,8 @@ https://www.destatis.de/DE/ZahlenFakten/LaenderRegionen/Regionales/Gemeindeverze
 
 Als nächstes:
 Stadtnamen zum Abgleich aus dieser Excel in eine Liste laden
+
+pd.read_csv('staedte.csv', encoding = "ISO-8859-1")
+'Arnis' in staedte['Staedte']
 
 '''
