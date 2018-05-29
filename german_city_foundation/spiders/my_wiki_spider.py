@@ -6,16 +6,31 @@ class MyWikiSpiderSpider(scrapy.Spider):
     allowed_domains = ["https://de.wikipedia.org/"]
     start_urls = ['https://de.wikipedia.org/wiki/Liste_deutscher_Stadtgr%C3%BCndungen']
 
+
     def parse(self, response):
 
-    	at_start_page = False
-    	unterseiten = response.xpath('//div[@class="mw-parser-output"]/ul[1]/li/a/@href').extract()
+    	staedte = pd.read_csv('./german_city_foundation/files/staedte.csv', encoding = "ISO-8859-1")
+    	
+    	ueberschrift = response.css('h1#firstHeading').extract_first()
 
-    	if response.request.url == 'https://de.wikipedia.org/wiki/Liste_deutscher_Stadtgr%C3%BCndungen':
-    		for j in unterseiten:
-    			yield response.follow(j, callback=self.parse)
+    	if ueberschrift in staedte:
+    		print('**' * 10, ' Stadt: ', ueberschrift)
+
     	else:
-    		print("UNTERSEITE: ")
+    		at_start_page = False
+    		unterseiten = response.xpath('//div[@class="mw-parser-output"]/ul[1]/li/a/@href').extract()
+
+    		if unterseiten is not None:
+    			for j in unterseiten:
+    				yield response.follow(j, callback=self.parse)
+
+    	# Startseite:
+    	# if response.request.url == 'https://de.wikipedia.org/wiki/Liste_deutscher_Stadtgr%C3%BCndungen':
+    	# 	for j in unterseiten:
+    	# 		yield response.follow(j, callback=self.parse)
+    	# elif 
+    	# else:
+    	# 	print("UNTERSEITE, erstmal nicht abgearbeitet: ", response.request.url)
     	
 
     	#print("*"*50)
@@ -37,7 +52,7 @@ https://www.destatis.de/DE/ZahlenFakten/LaenderRegionen/Regionales/Gemeindeverze
 Als nächstes:
 Stadtnamen zum Abgleich aus dieser Excel in eine Liste laden
 
-pd.read_csv('staedte.csv', encoding = "ISO-8859-1")
+staedte = pd.read_csv('staedte.csv', encoding = "ISO-8859-1")
 'Arnis' in staedte['Staedte']
 
 '''
