@@ -3,18 +3,34 @@ import pandas as pd
 
 class MyWikiSpiderSpider(scrapy.Spider):
     name = "my-wiki-spider"
-    allowed_domains = ["https://de.wikipedia.org/"]
+    allowed_domains = ["wikipedia.org"]
     start_urls = ['https://de.wikipedia.org/wiki/Liste_deutscher_Stadtgr%C3%BCndungen']
+
+    custom_settings = {
+        'DEPTH_LIMIT': 2
+    }
 
 
     def parse(self, response):
 
     	staedte = pd.read_csv('./german_city_foundation/files/staedte.csv', encoding = "ISO-8859-1")
+
+    	#print('############', 'Stuttgart' in staedte['Staedte']) # klappt
     	
-    	ueberschrift = response.css('h1#firstHeading').extract_first()
+    	ueberschrift = response.xpath('//h1[@id="firstHeading"]/text()').extract_first()
+
+    	with open('my_log.txt','a') as f:
+    		f.write(ueberschrift)
+    		f.write('\n')
+    		if ueberschrift in staedte:
+    			f.write('##################################\n')
 
     	if ueberschrift in staedte:
-    		print('**' * 10, ' Stadt: ', ueberschrift)
+    		#print('**' * 10, ' Stadt: ', ueberschrift)
+    		# with open('my_log.txt','wb') as f:
+    		# 	f.write('Stadt: ')
+    		# 	f.write(ueberschrift)
+    		pass
 
     	else:
     		at_start_page = False
@@ -52,7 +68,8 @@ https://www.destatis.de/DE/ZahlenFakten/LaenderRegionen/Regionales/Gemeindeverze
 Als nächstes:
 Stadtnamen zum Abgleich aus dieser Excel in eine Liste laden
 
-staedte = pd.read_csv('staedte.csv', encoding = "ISO-8859-1")
-'Arnis' in staedte['Staedte']
+USER_AGENT Bot Einstellungen noch vornehmen
+https://eliteinformatiker.de/2017/10/15/verantwortungsvolles-crawling
+
 
 '''
