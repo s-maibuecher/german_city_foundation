@@ -22,10 +22,10 @@ class MyWikiSpiderSpider(scrapy.Spider):
     	with open('my_log.txt','a') as f:
     		f.write(ueberschrift)
     		f.write('\n')
-    		if ueberschrift in staedte:
+    		if ueberschrift in staedte['Staedte']:
     			f.write('##################################\n')
 
-    	if ueberschrift in staedte:
+    	if ueberschrift in staedte['Staedte']:
     		#print('**' * 10, ' Stadt: ', ueberschrift)
     		# with open('my_log.txt','wb') as f:
     		# 	f.write('Stadt: ')
