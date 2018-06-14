@@ -19,41 +19,62 @@ class MyWikiSpiderSpider(scrapy.Spider):
     	
     	ueberschrift = response.xpath('//h1[@id="firstHeading"]/text()').extract_first()
 
+    	unterseiten = response.xpath('//div[@class="mw-parser-output"]/ul[1]/li/a/@href').extract()
+
+    	# Stadtseiten sind nur auf Tiefe 2 verfügbar:
+    	if response.meta["depth"] == 2:
+    		# Koordinaten auslesen
+    		pass
+    	
+    	elif response.meta["depth"] == 1:
+    		#Jahrhundertseite: hier untersuchen, ob der Link eine Stadt enthält, wenn dann Stadt und Gründungsdatum abfangen:
+    		if unterseiten is not None:
+    			for u in unterseiten:
+    				#if u in staedte['Staedte']:
+    				#print('STADT: '  + u)
+
+    				### hier weiter:
+    				# wenn der zugehörige Linktext eine Stadt ist, dann vergleich die Nachbarlinks auf Zahlenwert
+    				# oder das Muster "X v. Chr."
+    				# gebe diese Werte aus
+
+    				### gucken, wie man die Selector objects weiter verwenden kann:
+    				# https://doc.scrapy.org/en/latest/topics/selectors.html#scrapy.selector.Selector
+    				
+
     	with open('my_log.txt','a') as f:
     		f.write(ueberschrift)
+    		f.write('\t')
+    		f.write(str(response.meta["depth"]))
     		f.write('\n')
-    		if ueberschrift in staedte['Staedte']:
-    			f.write('##################################\n')
 
-    	if ueberschrift in staedte['Staedte']:
-    		#print('**' * 10, ' Stadt: ', ueberschrift)
-    		# with open('my_log.txt','wb') as f:
-    		# 	f.write('Stadt: ')
-    		# 	f.write(ueberschrift)
-    		pass
+    	if unterseiten is not None:
+    		for u in unterseiten:
+    			yield response.follow(u, callback=self.parse)
 
-    	else:
-    		at_start_page = False
-    		unterseiten = response.xpath('//div[@class="mw-parser-output"]/ul[1]/li/a/@href').extract()
+    	# with open('my_log.txt','a') as f:
+    	# 	f.write(ueberschrift)
+    	# 	f.write('\n')
+    	# 	if ueberschrift in staedte['Staedte']:
+    	# 		f.write('##################################\n')
+    	# 		f.write(str(response.meta["depth"]))
+    	# 		f.write('****\n')
 
-    		if unterseiten is not None:
-    			for j in unterseiten:
-    				yield response.follow(j, callback=self.parse)
+    	# if ueberschrift in staedte['Staedte']:
+    	# 	#print('**' * 10, ' Stadt: ', ueberschrift)
+    	# 	# with open('my_log.txt','wb') as f:
+    	# 	# 	f.write('Stadt: ')
+    	# 	# 	f.write(ueberschrift)
+    	# 	pass
 
-    	# Startseite:
-    	# if response.request.url == 'https://de.wikipedia.org/wiki/Liste_deutscher_Stadtgr%C3%BCndungen':
-    	# 	for j in unterseiten:
-    	# 		yield response.follow(j, callback=self.parse)
-    	# elif 
     	# else:
-    	# 	print("UNTERSEITE, erstmal nicht abgearbeitet: ", response.request.url)
-    	
+    	# 	#at_start_page = False
+    	# 	unterseiten = response.xpath('//div[@class="mw-parser-output"]/ul[1]/li/a/@href').extract()
 
-    	#print("*"*50)
-    	#for l in links:
-    	#	print('Ausgabe: ' + str(l))
+    	# 	if unterseiten is not None:
+    	# 		for j in unterseiten:
+    	# 			yield response.follow(j, callback=self.parse)
 
-    	#print("in parse Funktion")
 
 if __name__ == "__main__":
 	print("main")
@@ -61,6 +82,9 @@ if __name__ == "__main__":
 
 
 ''' To-Do:
+
+Meta Informationen übergeben:
+http://www.scrapingauthority.com/scrapy-meta
 
 Excel Datei mit allen Städten:
 https://www.destatis.de/DE/ZahlenFakten/LaenderRegionen/Regionales/Gemeindeverzeichnis/Administrativ/Aktuell/05Staedte.html
