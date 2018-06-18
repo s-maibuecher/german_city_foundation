@@ -1,5 +1,6 @@
 import scrapy
 import pandas as pd
+import re
 
 class MyWikiSpiderSpider(scrapy.Spider):
     name = "my-wiki-spider"
@@ -19,17 +20,20 @@ class MyWikiSpiderSpider(scrapy.Spider):
     	
     	ueberschrift = response.xpath('//h1[@id="firstHeading"]/text()').extract_first()
 
-    	unterseiten = response.xpath('//div[@class="mw-parser-output"]/ul[1]/li/a/@href').extract()
+    	unterseiten = response.xpath('//div[@class="mw-parser-output"]/ul[1]/li')
 
     	# Stadtseiten sind nur auf Tiefe 2 verfügbar:
     	if response.meta["depth"] == 2:
     		# Koordinaten auslesen
-    		pass
+    		print('Tiefe 2:')
+    		koordinaten = response.xpath('//*[@id="coordinates"]').extract()
+    		print(ueberschrift, koordinaten)
     	
     	elif response.meta["depth"] == 1:
     		#Jahrhundertseite: hier untersuchen, ob der Link eine Stadt enthält, wenn dann Stadt und Gründungsdatum abfangen:
-    		if unterseiten is not None:
-    			for u in unterseiten:
+    		print('Tiefe 1:')
+    		if unterseiten.xpath('./a').extract() is not None:
+    			for li in unterseiten:
     				#if u in staedte['Staedte']:
     				#print('STADT: '  + u)
 
@@ -40,6 +44,19 @@ class MyWikiSpiderSpider(scrapy.Spider):
 
     				### gucken, wie man die Selector objects weiter verwenden kann:
     				# https://doc.scrapy.org/en/latest/topics/selectors.html#scrapy.selector.Selector
+    				temp_stadtname = None
+    				temp_gruendungsjahr = None
+    				for a in li.xpath('a/text()').extract():
+    					m = re.search('(\d+)(\s*v\.\s*Chr\.)?', a)
+    					if m:
+    						#print('Reg-Ausdruck passt: ', m.group(0), ' ', m.group(1), m.group(2))
+    						if m.group(2) is not None:
+    							temp_gruendungsjahr = -1 * int(m.group(1))
+    						else:
+    							temp_gruendungsjahr = int(m.group(1))
+    					elif a in staedte['Staedte']:
+    						temp_stadtname = a
+    				print(ueberschrift, temp_stadtname, temp_gruendungsjahr)
     				
 
     	with open('my_log.txt','a') as f:
@@ -48,8 +65,8 @@ class MyWikiSpiderSpider(scrapy.Spider):
     		f.write(str(response.meta["depth"]))
     		f.write('\n')
 
-    	if unterseiten is not None:
-    		for u in unterseiten:
+    	if unterseiten.xpath('./a').extract() is not None:
+    		for u in unterseiten.xpath('./a/@href').extract():
     			yield response.follow(u, callback=self.parse)
 
     	# with open('my_log.txt','a') as f:
@@ -90,7 +107,7 @@ Excel Datei mit allen Städten:
 https://www.destatis.de/DE/ZahlenFakten/LaenderRegionen/Regionales/Gemeindeverzeichnis/Administrativ/Aktuell/05Staedte.html
 
 Als nächstes:
-Stadtnamen zum Abgleich aus dieser Excel in eine Liste laden
+Tiefe 2 wird noch nicht wie erwünscht gecrawlt
 
 USER_AGENT Bot Einstellungen noch vornehmen
 https://eliteinformatiker.de/2017/10/15/verantwortungsvolles-crawling
