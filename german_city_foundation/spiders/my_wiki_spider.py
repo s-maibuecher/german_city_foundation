@@ -28,6 +28,18 @@ class MyWikiSpiderSpider(scrapy.Spider):
     		print('Tiefe 2:')
     		koordinaten = response.xpath('//*[@id="coordinates"]').extract()
     		print(ueberschrift, koordinaten)
+
+    		## Wie gehe ich mit den Koordinaten um?
+
+    		'''
+    		Tiefe 2:Aschersleben ['
+    		<span id="coordinates" class="coordinates plainlinks-print">
+    		<span title="Koordinatensystem WGS84">Koordinaten: </span>
+    		<a class="external text" href="//tools.wmflabs.org/geohack/geohack.php?pagename=Aschersleben&amp;language=de&amp;params=51.755555555556_N_11.455555555556_E_region:DE-ST_type:city(27751)">
+    		<span title="Breitengrad">51°\xa045′\xa0<abbr title="Nord">N</abbr></span>,
+    		<span title="Längengrad">11°\xa027′\xa0<abbr title="Ost">O</abbr></span></a></span>']
+
+    		'''
     	
     	elif response.meta["depth"] == 1:
     		#Jahrhundertseite: hier untersuchen, ob der Link eine Stadt enthält, wenn dann Stadt und Gründungsdatum abfangen:
@@ -59,7 +71,7 @@ class MyWikiSpiderSpider(scrapy.Spider):
     				print(ueberschrift, temp_stadtname, temp_gruendungsjahr)
     				
 
-    	with open('my_log.txt','a') as f:
+    	with open('my_log.txt','w') as f:
     		f.write(ueberschrift)
     		f.write('\t')
     		f.write(str(response.meta["depth"]))
@@ -68,29 +80,6 @@ class MyWikiSpiderSpider(scrapy.Spider):
     	if unterseiten.xpath('./a').extract() is not None:
     		for u in unterseiten.xpath('./a/@href').extract():
     			yield response.follow(u, callback=self.parse)
-
-    	# with open('my_log.txt','a') as f:
-    	# 	f.write(ueberschrift)
-    	# 	f.write('\n')
-    	# 	if ueberschrift in staedte['Staedte']:
-    	# 		f.write('##################################\n')
-    	# 		f.write(str(response.meta["depth"]))
-    	# 		f.write('****\n')
-
-    	# if ueberschrift in staedte['Staedte']:
-    	# 	#print('**' * 10, ' Stadt: ', ueberschrift)
-    	# 	# with open('my_log.txt','wb') as f:
-    	# 	# 	f.write('Stadt: ')
-    	# 	# 	f.write(ueberschrift)
-    	# 	pass
-
-    	# else:
-    	# 	#at_start_page = False
-    	# 	unterseiten = response.xpath('//div[@class="mw-parser-output"]/ul[1]/li/a/@href').extract()
-
-    	# 	if unterseiten is not None:
-    	# 		for j in unterseiten:
-    	# 			yield response.follow(j, callback=self.parse)
 
 
 if __name__ == "__main__":
@@ -107,7 +96,8 @@ Excel Datei mit allen Städten:
 https://www.destatis.de/DE/ZahlenFakten/LaenderRegionen/Regionales/Gemeindeverzeichnis/Administrativ/Aktuell/05Staedte.html
 
 Als nächstes:
-Tiefe 2 wird noch nicht wie erwünscht gecrawlt
+Wie gehe ich mit den Koordinaten um?
+Daten in Datenbank speichern
 
 USER_AGENT Bot Einstellungen noch vornehmen
 https://eliteinformatiker.de/2017/10/15/verantwortungsvolles-crawling
