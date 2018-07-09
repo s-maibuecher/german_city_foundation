@@ -2,6 +2,10 @@ import scrapy
 import pandas as pd
 import re
 
+import sqlite3
+
+
+
 class MyWikiSpiderSpider(scrapy.Spider):
     name = "my-wiki-spider"
     allowed_domains = ["wikipedia.org"]
@@ -11,6 +15,15 @@ class MyWikiSpiderSpider(scrapy.Spider):
         'DEPTH_LIMIT': 2
     }
 
+
+    # create the table
+
+    sqlite_file = './my_city_db.sqlite'
+    con = sqlite3.connect(sqlite_file)
+    cur = con.cursor()
+
+    cur.execute('''CREATE TABLE CityTable (city TEXT, gruendungsjahr INT, breitengrad TEXT, laengengrad TEXT, UNIQUE (city));''')
+    con.commit()
 
     def parse(self, response):
 
@@ -29,6 +42,8 @@ class MyWikiSpiderSpider(scrapy.Spider):
     		koordinaten = response.xpath('//*[@id="coordinates"]').extract()
     		print(ueberschrift, koordinaten)
 
+    		cur.execute(insert_sql, (ueberschrift, 1, 1, 1))
+    		con.commit()
     		## Wie gehe ich mit den Koordinaten um?
 
     		'''
@@ -81,9 +96,8 @@ class MyWikiSpiderSpider(scrapy.Spider):
     		for u in unterseiten.xpath('./a/@href').extract():
     			yield response.follow(u, callback=self.parse)
 
+    	conn.close()
 
-if __name__ == "__main__":
-	print("main")
 
 
 
