@@ -42,8 +42,9 @@ class MyWikiSpiderSpider(scrapy.Spider):
     		koordinaten = response.xpath('//*[@id="coordinates"]').extract()
     		print(ueberschrift, koordinaten)
 
-    		cur.execute(insert_sql, (ueberschrift, 1, 1, 1))
-    		con.commit()
+    		self.cur.execute("INSERT INTO CityTable ( city, gruendungsjahr, breitengrad, laengengrad) VALUES ( "+ ueberschrift+ ", 1, 1, 1)")
+    		#c.execute("INSERT INTO {tn} ({idf}, {cn}) VALUES (123456, 'test')".format(tn='CityTable', idf=id_column, cn=column_name))
+    		self.con.commit()
     		## Wie gehe ich mit den Koordinaten um?
 
     		'''
@@ -96,7 +97,7 @@ class MyWikiSpiderSpider(scrapy.Spider):
     		for u in unterseiten.xpath('./a/@href').extract():
     			yield response.follow(u, callback=self.parse)
 
-    	conn.close()
+    con.close()
 
 
 
@@ -112,6 +113,8 @@ https://www.destatis.de/DE/ZahlenFakten/LaenderRegionen/Regionales/Gemeindeverze
 Als nächstes:
 Wie gehe ich mit den Koordinaten um?
 Daten in Datenbank speichern
+Datenbankabfragen mit Fehlerbehandlung ausführen
+
 
 USER_AGENT Bot Einstellungen noch vornehmen
 https://eliteinformatiker.de/2017/10/15/verantwortungsvolles-crawling
