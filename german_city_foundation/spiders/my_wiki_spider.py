@@ -97,11 +97,13 @@ class MyWikiSpiderSpider(scrapy.Spider):
     		for u in unterseiten.xpath('./a/@href').extract():
     			yield response.follow(u, callback=self.parse)
 
-    con.close()
+    def closeDB(self):
+    	self.con.close()
 
-
-
-
+    def __del__(self):
+    	print('DATENBANK WIRD GESCHLOSSEN.')
+    	self.closeDB()
+    	
 ''' To-Do:
 
 Meta Informationen übergeben:
