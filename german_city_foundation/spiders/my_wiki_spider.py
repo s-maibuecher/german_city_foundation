@@ -100,11 +100,20 @@ class MyWikiSpiderSpider(scrapy.Spider):
     		for u in unterseiten.xpath('./a/@href').extract():
     			yield response.follow(u, callback=self.parse)
 
-    #con.close()
+
+    def closeDB(self):
+    	self.con.close()
 
 
-
-
+    def __del__(self):
+    	print("Datenbank ausgeben:")
+    	self.cur.execute("SELECT * FROM CityTable LIMIT 5")
+    	all_rows = self.cur.fetchall()
+    	print('1):', all_rows)
+    	self.con.commit()
+    	print('DATENBANK WIRD GESCHLOSSEN.')
+    	self.closeDB()
+    	
 ''' To-Do:
 
 Meta Informationen übergeben:
