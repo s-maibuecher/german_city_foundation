@@ -22,7 +22,8 @@ class MyWikiSpiderSpider(scrapy.Spider):
     con = sqlite3.connect(sqlite_file)
     cur = con.cursor()
 
-    cur.execute('''CREATE TABLE CityTable (city TEXT, gruendungsjahr INT, breitengrad TEXT, laengengrad TEXT, UNIQUE (city));''')
+    #cur.execute('''CREATE TABLE CityTable (city TEXT, gruendungsjahr INT, breitengrad TEXT, laengengrad TEXT, UNIQUE (city));''')
+    cur.execute(''' CREATE TABLE IF NOT EXISTS CityTable( city TEXT PRIMARY KEY, gruendungsjahr INT, breitengrad TEXT, laengengrad TEXT );''')
     con.commit()
 
     def parse(self, response):
@@ -31,18 +32,20 @@ class MyWikiSpiderSpider(scrapy.Spider):
 
     	#print('############', 'Stuttgart' in staedte['Staedte']) # klappt
     	
-    	ueberschrift = response.xpath('//h1[@id="firstHeading"]/text()').extract_first()
+    	
 
     	unterseiten = response.xpath('//div[@class="mw-parser-output"]/ul[1]/li')
 
     	# Stadtseiten sind nur auf Tiefe 2 verfügbar:
     	if response.meta["depth"] == 2:
+
+    		ueberschrift = response.xpath('//h1[@id="firstHeading"]/text()').extract_first()
     		# Koordinaten auslesen
     		print('Tiefe 2:')
     		koordinaten = response.xpath('//*[@id="coordinates"]').extract()
     		print(ueberschrift, koordinaten)
 
-    		self.cur.execute("INSERT INTO CityTable ( city, gruendungsjahr, breitengrad, laengengrad) VALUES ( "+ ueberschrift+ ", 1, 1, 1)")
+    		self.cur.execute("INSERT INTO CityTable ( city, gruendungsjahr, breitengrad, laengengrad) VALUES ( {ue}, 1, 1, 1)".format(ue=ueberschrift))
     		#c.execute("INSERT INTO {tn} ({idf}, {cn}) VALUES (123456, 'test')".format(tn='CityTable', idf=id_column, cn=column_name))
     		self.con.commit()
     		## Wie gehe ich mit den Koordinaten um?
@@ -84,20 +87,20 @@ class MyWikiSpiderSpider(scrapy.Spider):
     							temp_gruendungsjahr = int(m.group(1))
     					elif a in staedte['Staedte']:
     						temp_stadtname = a
-    				print(ueberschrift, temp_stadtname, temp_gruendungsjahr)
+    				print( temp_stadtname, temp_gruendungsjahr)
     				
 
-    	with open('my_log.txt','w') as f:
-    		f.write(ueberschrift)
-    		f.write('\t')
-    		f.write(str(response.meta["depth"]))
-    		f.write('\n')
+    	# with open('my_log.txt','w') as f:
+    	# 	f.write(ueberschrift)
+    	# 	f.write('\t')
+    	# 	f.write(str(response.meta["depth"]))
+    	# 	f.write('\n')
 
     	if unterseiten.xpath('./a').extract() is not None:
     		for u in unterseiten.xpath('./a/@href').extract():
     			yield response.follow(u, callback=self.parse)
 
-    con.close()
+    #con.close()
 
 
 
