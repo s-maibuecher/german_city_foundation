@@ -45,7 +45,7 @@ class MyWikiSpiderSpider(scrapy.Spider):
     		koordinaten = response.xpath('//*[@id="coordinates"]').extract()
     		print(ueberschrift, koordinaten)
 
-    		self.cur.execute("INSERT INTO CityTable ( city, gruendungsjahr, breitengrad, laengengrad) VALUES ( {ue}, 1, 1, 1)".format(ue=ueberschrift))
+    		self.cur.execute("INSERT OR IGNORE INTO CityTable VALUES ( ?, ?, ?, ?) ", ( ueberschrift, 1, 1, 1))
     		#c.execute("INSERT INTO {tn} ({idf}, {cn}) VALUES (123456, 'test')".format(tn='CityTable', idf=id_column, cn=column_name))
     		self.con.commit()
     		## Wie gehe ich mit den Koordinaten um?
