@@ -42,15 +42,22 @@ class MyWikiSpiderSpider(scrapy.Spider):
     		ueberschrift = response.xpath('//h1[@id="firstHeading"]/text()').extract_first()
     		# Koordinaten auslesen
     		print('Tiefe 2:')
-    		koordinaten = response.xpath('//*[@id="coordinates"]').extract()
-    		print(ueberschrift, koordinaten)
+    		koordinaten = response.xpath('//*[@id="coordinates"]')
+    		print(ueberschrift)
 
-    		if ueberschrift in staedte['Staedte']:
-    			self.cur.execute("INSERT OR IGNORE INTO CityTable VALUES ( ?, ?, ?, ?) ", ( ueberschrift, 1, 1, 1))
+    		if ueberschrift in staedte['Staedte'] and koordinaten:
+
+    			breitengrad = koordinaten.xpath('descendant::*[@title="Breitengrad"]/text()').extract_first()
+    			laengengrad = koordinaten.xpath('descendant::*[@title="Längengrad"]/text()').extract_first()
+
+
+    			self.cur.execute("INSERT OR IGNORE INTO CityTable VALUES ( ?, ?, ?, ?) ", ( ueberschrift, 1, breitengrad, laengengrad))
     		#c.execute("INSERT INTO {tn} ({idf}, {cn}) VALUES (123456, 'test')".format(tn='CityTable', idf=id_column, cn=column_name))
     			self.con.commit()
     		## Wie gehe ich mit den Koordinaten um?
-
+    			# print("KOORDINATEN: ")
+    			# bg = koordinaten.xpath('descendant::*[@title="Breitengrad"]/text()').extract_first()
+    			# print(bg)
     		'''
     		Tiefe 2:Aschersleben ['
     		<span id="coordinates" class="coordinates plainlinks-print">
