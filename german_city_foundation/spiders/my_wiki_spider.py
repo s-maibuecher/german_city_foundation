@@ -36,6 +36,8 @@ class MyWikiSpiderSpider(scrapy.Spider):
 
     	unterseiten = response.xpath('//div[@class="mw-parser-output"]/ul[1]/li')
 
+    	gruendungsjahr = None
+
     	# Stadtseiten sind nur auf Tiefe 2 verfügbar:
     	if response.meta["depth"] == 2:
 
@@ -44,6 +46,7 @@ class MyWikiSpiderSpider(scrapy.Spider):
     		print('Tiefe 2:')
     		koordinaten = response.xpath('//*[@id="coordinates"]')
     		print(ueberschrift)
+    		print("META", str(response.meta['jahr']))
 
     		if ueberschrift in staedte['Staedte'] and koordinaten:
 
@@ -51,7 +54,7 @@ class MyWikiSpiderSpider(scrapy.Spider):
     			laengengrad = koordinaten.xpath('descendant::*[@title="Längengrad"]/text()').extract_first()
 
 
-    			self.cur.execute("INSERT OR IGNORE INTO CityTable VALUES ( ?, ?, ?, ?) ", ( ueberschrift, 1, breitengrad, laengengrad))
+    			self.cur.execute("INSERT OR IGNORE INTO CityTable VALUES ( ?, ?, ?, ?) ", ( ueberschrift, response.meta['jahr'], breitengrad, laengengrad))
     		#c.execute("INSERT INTO {tn} ({idf}, {cn}) VALUES (123456, 'test')".format(tn='CityTable', idf=id_column, cn=column_name))
     			self.con.commit()
     		## Wie gehe ich mit den Koordinaten um?
@@ -67,7 +70,7 @@ class MyWikiSpiderSpider(scrapy.Spider):
     		<span title="Längengrad">11°\xa027′\xa0<abbr title="Ost">O</abbr></span></a></span>']
 
     		'''
-    	
+
     	elif response.meta["depth"] == 1:
     		#Jahrhundertseite: hier untersuchen, ob der Link eine Stadt enthält, wenn dann Stadt und Gründungsdatum abfangen:
     		print('Tiefe 1:')
@@ -84,18 +87,18 @@ class MyWikiSpiderSpider(scrapy.Spider):
     				### gucken, wie man die Selector objects weiter verwenden kann:
     				# https://doc.scrapy.org/en/latest/topics/selectors.html#scrapy.selector.Selector
     				temp_stadtname = None
-    				temp_gruendungsjahr = None
+    				
     				for a in li.xpath('a/text()').extract():
     					m = re.search('(\d+)(\s*v\.\s*Chr\.)?', a)
     					if m:
     						#print('Reg-Ausdruck passt: ', m.group(0), ' ', m.group(1), m.group(2))
     						if m.group(2) is not None:
-    							temp_gruendungsjahr = -1 * int(m.group(1))
+    							gruendungsjahr = -1 * int(m.group(1))
     						else:
-    							temp_gruendungsjahr = int(m.group(1))
+    							gruendungsjahr = int(m.group(1))
     					elif a in staedte['Staedte']:
     						temp_stadtname = a
-    				print( temp_stadtname, temp_gruendungsjahr)
+    				print( temp_stadtname, gruendungsjahr)
     				
 
     	# with open('my_log.txt','w') as f:
@@ -106,7 +109,7 @@ class MyWikiSpiderSpider(scrapy.Spider):
 
     	if unterseiten.xpath('./a').extract() is not None:
     		for u in unterseiten.xpath('./a/@href').extract():
-    			yield response.follow(u, callback=self.parse)
+    			yield response.follow(u, callback=self.parse, meta={'jahr' : gruendungsjahr})
 
 
     def closeDB(self):
