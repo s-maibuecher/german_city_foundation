@@ -36,8 +36,6 @@ class MyWikiSpiderSpider(scrapy.Spider):
 
     	unterseiten = response.xpath('//div[@class="mw-parser-output"]/ul[1]/li')
 
-    	gruendungsjahr = None
-
     	# Stadtseiten sind nur auf Tiefe 2 verfügbar:
     	if response.meta["depth"] == 2:
 
@@ -86,20 +84,29 @@ class MyWikiSpiderSpider(scrapy.Spider):
 
     				### gucken, wie man die Selector objects weiter verwenden kann:
     				# https://doc.scrapy.org/en/latest/topics/selectors.html#scrapy.selector.Selector
+    				
+    				gruendungsjahr = None
     				temp_stadtname = None
     				
-    				for a in li.xpath('a/text()').extract():
-    					m = re.search('(\d+)(\s*v\.\s*Chr\.)?', a)
+    				for a in li.xpath('a'):
+    					m = re.search('(\d+)(\s*v\.\s*Chr\.)?', a.xpath('./text()').extract_first())
     					if m:
     						#print('Reg-Ausdruck passt: ', m.group(0), ' ', m.group(1), m.group(2))
     						if m.group(2) is not None:
     							gruendungsjahr = -1 * int(m.group(1))
     						else:
     							gruendungsjahr = int(m.group(1))
-    					elif a in staedte['Staedte']:
-    						temp_stadtname = a
+    					else:
+    						if a.xpath('./text()').extract_first() in staedte['Staedte']:
+    							temp_stadtname = a.xpath('./text()').extract_first()
+
+    						yield response.follow(a.xpath('@href').extract_first(), callback=self.parse, meta={'jahr' : gruendungsjahr})
+
     				print( temp_stadtname, gruendungsjahr)
     				
+    				# if unterseiten.xpath('./a').extract() is not None:
+    				# 	for u in unterseiten.xpath('./a/@href').extract():
+    				# 		yield response.follow(u, callback=self.parse, meta={'jahr' : gruendungsjahr})
 
     	# with open('my_log.txt','w') as f:
     	# 	f.write(ueberschrift)
@@ -107,9 +114,10 @@ class MyWikiSpiderSpider(scrapy.Spider):
     	# 	f.write(str(response.meta["depth"]))
     	# 	f.write('\n')
 
-    	if unterseiten.xpath('./a').extract() is not None:
+    	# Generate Follow Links for Start URL (response.meta["depth"] == 0):
+    	if response.meta["depth"] == 0 and unterseiten.xpath('./a').extract() is not None:
     		for u in unterseiten.xpath('./a/@href').extract():
-    			yield response.follow(u, callback=self.parse, meta={'jahr' : gruendungsjahr})
+    			yield response.follow(u, callback=self.parse)
 
 
     def closeDB(self):
