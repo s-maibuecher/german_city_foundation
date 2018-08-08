@@ -17,22 +17,16 @@ class MyWikiSpiderSpider(scrapy.Spider):
 
 
     # create the table
-
     sqlite_file = './my_city_db.sqlite'
     con = sqlite3.connect(sqlite_file)
     cur = con.cursor()
 
-    #cur.execute('''CREATE TABLE CityTable (city TEXT, gruendungsjahr INT, breitengrad TEXT, laengengrad TEXT, UNIQUE (city));''')
     cur.execute(''' CREATE TABLE IF NOT EXISTS CityTable( city TEXT PRIMARY KEY, gruendungsjahr INT, breitengrad TEXT, laengengrad TEXT );''')
     con.commit()
 
     def parse(self, response):
 
     	staedte = pd.read_csv('./german_city_foundation/files/staedte.csv', encoding = "ISO-8859-1")
-
-    	#print('############', 'Stuttgart' in staedte['Staedte']) # klappt
-    	
-    	
 
     	unterseiten = response.xpath('//div[@class="mw-parser-output"]/ul[1]/li')
 
@@ -41,10 +35,10 @@ class MyWikiSpiderSpider(scrapy.Spider):
 
     		ueberschrift = response.xpath('//h1[@id="firstHeading"]/text()').extract_first()
     		# Koordinaten auslesen
-    		print('Tiefe 2:')
+    		#print('Tiefe 2:')
     		koordinaten = response.xpath('//*[@id="coordinates"]')
-    		print(ueberschrift)
-    		print("META", str(response.meta['jahr']))
+    		#print(ueberschrift)
+    		#print("META", str(response.meta['jahr']))
 
     		if ueberschrift in staedte['Staedte'] and koordinaten:
 
@@ -53,37 +47,14 @@ class MyWikiSpiderSpider(scrapy.Spider):
 
 
     			self.cur.execute("INSERT OR IGNORE INTO CityTable VALUES ( ?, ?, ?, ?) ", ( ueberschrift, response.meta['jahr'], breitengrad, laengengrad))
-    		#c.execute("INSERT INTO {tn} ({idf}, {cn}) VALUES (123456, 'test')".format(tn='CityTable', idf=id_column, cn=column_name))
     			self.con.commit()
-    		## Wie gehe ich mit den Koordinaten um?
-    			# print("KOORDINATEN: ")
-    			# bg = koordinaten.xpath('descendant::*[@title="Breitengrad"]/text()').extract_first()
-    			# print(bg)
-    		'''
-    		Tiefe 2:Aschersleben ['
-    		<span id="coordinates" class="coordinates plainlinks-print">
-    		<span title="Koordinatensystem WGS84">Koordinaten: </span>
-    		<a class="external text" href="//tools.wmflabs.org/geohack/geohack.php?pagename=Aschersleben&amp;language=de&amp;params=51.755555555556_N_11.455555555556_E_region:DE-ST_type:city(27751)">
-    		<span title="Breitengrad">51°\xa045′\xa0<abbr title="Nord">N</abbr></span>,
-    		<span title="Längengrad">11°\xa027′\xa0<abbr title="Ost">O</abbr></span></a></span>']
 
-    		'''
 
     	elif response.meta["depth"] == 1:
     		#Jahrhundertseite: hier untersuchen, ob der Link eine Stadt enthält, wenn dann Stadt und Gründungsdatum abfangen:
-    		print('Tiefe 1:')
+    		#print('Tiefe 1:')
     		if unterseiten.xpath('./a').extract() is not None:
     			for li in unterseiten:
-    				#if u in staedte['Staedte']:
-    				#print('STADT: '  + u)
-
-    				### hier weiter:
-    				# wenn der zugehörige Linktext eine Stadt ist, dann vergleich die Nachbarlinks auf Zahlenwert
-    				# oder das Muster "X v. Chr."
-    				# gebe diese Werte aus
-
-    				### gucken, wie man die Selector objects weiter verwenden kann:
-    				# https://doc.scrapy.org/en/latest/topics/selectors.html#scrapy.selector.Selector
     				
     				gruendungsjahr = None
     				temp_stadtname = None
@@ -96,23 +67,20 @@ class MyWikiSpiderSpider(scrapy.Spider):
     							gruendungsjahr = -1 * int(m.group(1))
     						else:
     							gruendungsjahr = int(m.group(1))
-    					else:
-    						if a.xpath('./text()').extract_first() in staedte['Staedte']:
-    							temp_stadtname = a.xpath('./text()').extract_first()
+    					
+    				# Found no number within the link text, maybe there is a number (the year of foundation), which is not linked??
+    				if gruendungsjahr is None:
+    					# noch eine Spalte "Jahr unklar?" die dann mit 1 füllen wenn dem so ist und die ganze li Zeile reinkopieren?
+    					# oder besser noch Überschrift von der Zwischenseite beachten und Zahlenwerte vergleichen
+    					pass
 
-    						yield response.follow(a.xpath('@href').extract_first(), callback=self.parse, meta={'jahr' : gruendungsjahr})
 
-    				print( temp_stadtname, gruendungsjahr)
-    				
-    				# if unterseiten.xpath('./a').extract() is not None:
-    				# 	for u in unterseiten.xpath('./a/@href').extract():
-    				# 		yield response.follow(u, callback=self.parse, meta={'jahr' : gruendungsjahr})
+    				for a in li.xpath('a'):
+    					if a.xpath('./text()').extract_first() in staedte['Staedte']: # Gehen mit dem Abgleich Städte flöten??
+    						temp_stadtname = a.xpath('./text()').extract_first()
 
-    	# with open('my_log.txt','w') as f:
-    	# 	f.write(ueberschrift)
-    	# 	f.write('\t')
-    	# 	f.write(str(response.meta["depth"]))
-    	# 	f.write('\n')
+    					yield response.follow(a.xpath('@href').extract_first(), callback=self.parse, meta={'jahr' : gruendungsjahr})
+
 
     	# Generate Follow Links for Start URL (response.meta["depth"] == 0):
     	if response.meta["depth"] == 0 and unterseiten.xpath('./a').extract() is not None:
@@ -142,8 +110,7 @@ Excel Datei mit allen Städten:
 https://www.destatis.de/DE/ZahlenFakten/LaenderRegionen/Regionales/Gemeindeverzeichnis/Administrativ/Aktuell/05Staedte.html
 
 Als nächstes:
-Wie gehe ich mit den Koordinaten um?
-Daten in Datenbank speichern
+
 Datenbankabfragen mit Fehlerbehandlung ausführen
 
 
