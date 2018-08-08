@@ -21,7 +21,7 @@ class MyWikiSpiderSpider(scrapy.Spider):
     con = sqlite3.connect(sqlite_file)
     cur = con.cursor()
 
-    cur.execute(''' CREATE TABLE IF NOT EXISTS CityTable( city TEXT PRIMARY KEY, gruendungsjahr INT, breitengrad TEXT, laengengrad TEXT );''')
+    cur.execute(''' CREATE TABLE IF NOT EXISTS CityTable( city TEXT PRIMARY KEY, gruendungsjahr INT, breitengrad TEXT, laengengrad TEXT, jahr_sollte_ueberprueft_werden INT );''')
     con.commit()
 
     def parse(self, response):
@@ -46,24 +46,27 @@ class MyWikiSpiderSpider(scrapy.Spider):
     			laengengrad = koordinaten.xpath('descendant::*[@title="Längengrad"]/text()').extract_first()
 
 
-    			self.cur.execute("INSERT OR IGNORE INTO CityTable VALUES ( ?, ?, ?, ?) ", ( ueberschrift, response.meta['jahr'], breitengrad, laengengrad))
+    			self.cur.execute("INSERT OR IGNORE INTO CityTable VALUES ( ?, ?, ?, ?, ?) ", ( ueberschrift, response.meta['jahr'], breitengrad, laengengrad, response.meta['jahr_unsicher']))
     			self.con.commit()
 
 
     	elif response.meta["depth"] == 1:
     		#Jahrhundertseite: hier untersuchen, ob der Link eine Stadt enthält, wenn dann Stadt und Gründungsdatum abfangen:
     		#print('Tiefe 1:')
+    		ueberschrift = response.xpath('//h1[@id="firstHeading"]/text()').extract_first()
+
     		if unterseiten.xpath('./a').extract() is not None:
     			for li in unterseiten:
+
+    				jahr_unsicher = 0
     				
     				gruendungsjahr = None
     				temp_stadtname = None
     				
     				for a in li.xpath('a'):
-    					m = re.search('(\d+)(\s*v\.\s*Chr\.)?', a.xpath('./text()').extract_first())
+    					m = re.search('(\d+)(\/\d+)(\s*v\.\s*Chr\.)?', a.xpath('./text()').extract_first())
     					if m:
-    						#print('Reg-Ausdruck passt: ', m.group(0), ' ', m.group(1), m.group(2))
-    						if m.group(2) is not None:
+    						if m.group(3) is not None:
     							gruendungsjahr = -1 * int(m.group(1))
     						else:
     							gruendungsjahr = int(m.group(1))
@@ -72,14 +75,27 @@ class MyWikiSpiderSpider(scrapy.Spider):
     				if gruendungsjahr is None:
     					# noch eine Spalte "Jahr unklar?" die dann mit 1 füllen wenn dem so ist und die ganze li Zeile reinkopieren?
     					# oder besser noch Überschrift von der Zwischenseite beachten und Zahlenwerte vergleichen
-    					pass
+
+    					jahr_unsicher = 1 # value := 1 if regex is uncertain
+
+    					regex_jahrhundert_in_ueberschrift = re.search('(\d+)\.(\s*v\.\s*Chr\.)?', ueberschrift)
+    					jahrhundert_in_ueberschrift = None
+    					if regex_jahrhundert_in_ueberschrift:
+    						if regex_jahrhundert_in_ueberschrift.group(2) is not None:
+    							jahrhundert_in_ueberschrift = -1 * int(regex_jahrhundert_in_ueberschrift.group(1))
+    						else:
+    							jahrhundert_in_ueberschrift = int(regex_jahrhundert_in_ueberschrift.group(1))
 
 
+    					regex_search_year_in_li = re.findall('(\d+)(\/\d+)?', li.xpath('./text()').extract()) # hier weiter: findall scheint nicht genug zu sein, siehe 1124/25 Usedom Zeile
+    					print('#'*20, regex_search_year_in_li)
+
+    					
     				for a in li.xpath('a'):
     					if a.xpath('./text()').extract_first() in staedte['Staedte']: # Gehen mit dem Abgleich Städte flöten??
     						temp_stadtname = a.xpath('./text()').extract_first()
 
-    					yield response.follow(a.xpath('@href').extract_first(), callback=self.parse, meta={'jahr' : gruendungsjahr})
+    					yield response.follow(a.xpath('@href').extract_first(), callback=self.parse, meta={'jahr' : gruendungsjahr, 'jahr_unsicher': jahr_unsicher})
 
 
     	# Generate Follow Links for Start URL (response.meta["depth"] == 0):
