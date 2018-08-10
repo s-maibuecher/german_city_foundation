@@ -64,7 +64,8 @@ class MyWikiSpiderSpider(scrapy.Spider):
     				temp_stadtname = None
     				
     				for a in li.xpath('a'):
-    					m = re.search('(\d+)(\/\d+)(\s*v\.\s*Chr\.)?', a.xpath('./text()').extract_first())
+    					m = re.search('(\d+)(\/\d+)?(\s*v\.\s*Chr\.)?', str(a.xpath('./text()').extract_first()))
+    					#print('*** DEBUG INFO: a text', str(a.xpath('./text()').extract_first()))
     					if m:
     						if m.group(3) is not None:
     							gruendungsjahr = -1 * int(m.group(1))
@@ -75,10 +76,11 @@ class MyWikiSpiderSpider(scrapy.Spider):
     				if gruendungsjahr is None:
     					# noch eine Spalte "Jahr unklar?" die dann mit 1 füllen wenn dem so ist und die ganze li Zeile reinkopieren?
     					# oder besser noch Überschrift von der Zwischenseite beachten und Zahlenwerte vergleichen
-
-    					jahr_unsicher = 1 # value := 1 if regex is uncertain
+    					#print('*** DEBUG INFO: gruendungsjahr is None', str(li))
+    					jahr_unsicher = 1 # value := 1 if scrawlt year is uncertain
 
     					regex_jahrhundert_in_ueberschrift = re.search('(\d+)\.(\s*v\.\s*Chr\.)?', ueberschrift)
+    					#print('*** DEBUG INFO: gruendungsjahr is None', str(regex_jahrhundert_in_ueberschrift.group(1)))
     					jahrhundert_in_ueberschrift = None
     					if regex_jahrhundert_in_ueberschrift:
     						if regex_jahrhundert_in_ueberschrift.group(2) is not None:
@@ -86,9 +88,22 @@ class MyWikiSpiderSpider(scrapy.Spider):
     						else:
     							jahrhundert_in_ueberschrift = int(regex_jahrhundert_in_ueberschrift.group(1))
 
+    							# hier oben Print Debug Ausgaben reinsetzen
 
-    					regex_search_year_in_li = re.findall('(\d+)(\/\d+)?', li.xpath('./text()').extract()) # hier weiter: findall scheint nicht genug zu sein, siehe 1124/25 Usedom Zeile
-    					print('#'*20, regex_search_year_in_li)
+
+    					all_li_text = li.xpath('./text()').extract()
+    					li_string = ''
+    					for l in all_li_text:
+    						li_string += l + " "
+
+    					regex_search_year_in_li = re.findall('(\d+)[\/\d+]?', li_string)
+    					#print('#'*20, regex_search_year_in_li) # hier weiter debug meldungen runtergeben
+    					range_the_year_should_be_in_min = 100 * jahrhundert_in_ueberschrift
+    					range_the_year_should_be_in_max = 100 * jahrhundert_in_ueberschrift + 100
+
+    					for y in regex_search_year_in_li:
+    						if int(y) >= range_the_year_should_be_in_min and int(y) <= range_the_year_should_be_in_max:
+    							gruendungsjahr = int(y)
 
     					
     				for a in li.xpath('a'):
