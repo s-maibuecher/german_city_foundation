@@ -74,13 +74,11 @@ class MyWikiSpiderSpider(scrapy.Spider):
     					
     				# Found no number within the link text, maybe there is a number (the year of foundation), which is not linked??
     				if gruendungsjahr is None:
-    					# noch eine Spalte "Jahr unklar?" die dann mit 1 füllen wenn dem so ist und die ganze li Zeile reinkopieren?
-    					# oder besser noch Überschrift von der Zwischenseite beachten und Zahlenwerte vergleichen
-    					#print('*** DEBUG INFO: gruendungsjahr is None', str(li))
+
     					jahr_unsicher = 1 # value := 1 if scrawlt year is uncertain
 
     					regex_jahrhundert_in_ueberschrift = re.search('(\d+)\.(\s*v\.\s*Chr\.)?', ueberschrift)
-    					#print('*** DEBUG INFO: gruendungsjahr is None', str(regex_jahrhundert_in_ueberschrift.group(1)))
+
     					jahrhundert_in_ueberschrift = None
     					if regex_jahrhundert_in_ueberschrift:
     						if regex_jahrhundert_in_ueberschrift.group(2) is not None:
@@ -88,24 +86,27 @@ class MyWikiSpiderSpider(scrapy.Spider):
     						else:
     							jahrhundert_in_ueberschrift = int(regex_jahrhundert_in_ueberschrift.group(1))
 
-    							# hier oben Print Debug Ausgaben reinsetzen
-
 
     					all_li_text = li.xpath('./text()').extract()
+    					print("Ganzes LI: ",str(li))
     					li_string = ''
     					for l in all_li_text:
     						li_string += l + " "
 
-    					regex_search_year_in_li = re.findall('(\d+)[\/\d+]?', li_string)
-    					#print('#'*20, regex_search_year_in_li) # hier weiter debug meldungen runtergeben
-    					range_the_year_should_be_in_min = 100 * jahrhundert_in_ueberschrift
-    					range_the_year_should_be_in_max = 100 * jahrhundert_in_ueberschrift + 100
+    					#print("zusammengebastelter LI String:", li_string)
 
-    					for y in regex_search_year_in_li:
+    					regex_search_year_in_li = re.findall('(\d+)[\/\d+]?', li_string)
+    					#print('#'*20, li_string, str(regex_search_year_in_li)) # ### 1282  , erste urkundliche Erwähnung als   ['1282']
+    					range_the_year_should_be_in_min = 100 * jahrhundert_in_ueberschrift - 100
+    					range_the_year_should_be_in_max = 100 * jahrhundert_in_ueberschrift 
+
+    					for y in regex_search_year_in_li[::-1]: # reverse, since the first written year mostly ist the founding year
+    						print("In For Schleife. y:", str(int(y)),'range_the_year_should_be_in_min', range_the_year_should_be_in_min)
     						if int(y) >= range_the_year_should_be_in_min and int(y) <= range_the_year_should_be_in_max:
     							gruendungsjahr = int(y)
 
-    					
+    					#print("Gründungsjahr dann:", gruendungsjahr)
+
     				for a in li.xpath('a'):
     					if a.xpath('./text()').extract_first() in staedte['Staedte']: # Gehen mit dem Abgleich Städte flöten??
     						temp_stadtname = a.xpath('./text()').extract_first()
@@ -144,9 +145,7 @@ Als nächstes:
 
 Datenbankabfragen mit Fehlerbehandlung ausführen
 
-
 USER_AGENT Bot Einstellungen noch vornehmen
 https://eliteinformatiker.de/2017/10/15/verantwortungsvolles-crawling
-
 
 '''
