@@ -2,7 +2,7 @@ from mpl_toolkits.basemap import Basemap
 import matplotlib.pyplot as plt
 
 #m = Basemap(projection='mill',llcrnrlat=20,urcrnrlat=50, llcrnrlon=-130,urcrnrlon=-60,resolution='c')
-m = Basemap(projection='mill',llcrnrlat=45,urcrnrlat=56, llcrnrlon=5,urcrnrlon=15, resolution='c')
+m = Basemap(projection='mill',llcrnrlat=47.1,urcrnrlat=55.2, llcrnrlon=5.5,urcrnrlon=15.3, resolution='l')
 m.drawcoastlines()
 m.drawcountries()
 m.drawstates()
@@ -23,6 +23,7 @@ m.plot(x,y,'ro',markersize=20,alpha=.5)
 x,y = m(lon2,lat2)
 m.plot(x,y,'go',markersize=20,alpha=.5)
 
+#m.bluemarble()
 plt.savefig('map.png')
 plt.title('Geo Plotting')
 
