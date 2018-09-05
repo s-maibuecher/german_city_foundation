@@ -1,8 +1,8 @@
 from mpl_toolkits.basemap import Basemap
 import matplotlib.pyplot as plt
 
-m = Basemap(projection='mill',llcrnrlat=20,urcrnrlat=50,\
-            llcrnrlon=-130,urcrnrlon=-60,resolution='c')
+#m = Basemap(projection='mill',llcrnrlat=20,urcrnrlat=50, llcrnrlon=-130,urcrnrlon=-60,resolution='c')
+m = Basemap(projection='mill',llcrnrlat=45,urcrnrlat=56, llcrnrlon=5,urcrnrlon=15, resolution='c')
 m.drawcoastlines()
 m.drawcountries()
 m.drawstates()
