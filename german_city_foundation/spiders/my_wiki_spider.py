@@ -145,6 +145,8 @@ Als nächstes:
 
 Datenbankabfragen mit Fehlerbehandlung ausführen
 
+https://matplotlib.org/gallery/animation/dynamic_image2.html
+
 USER_AGENT Bot Einstellungen noch vornehmen
 https://eliteinformatiker.de/2017/10/15/verantwortungsvolles-crawling
 
