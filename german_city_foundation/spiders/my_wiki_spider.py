@@ -21,7 +21,7 @@ class MyWikiSpiderSpider(scrapy.Spider):
     con = sqlite3.connect(sqlite_file)
     cur = con.cursor()
 
-    cur.execute(''' CREATE TABLE IF NOT EXISTS CityTable( city TEXT PRIMARY KEY, gruendungsjahr INT, breitengrad TEXT, laengengrad TEXT, jahr_sollte_ueberprueft_werden INT );''')
+    cur.execute(''' CREATE TABLE IF NOT EXISTS CityTable( city TEXT PRIMARY KEY, gruendungsjahr INT, breitengrad TEXT, laengengrad TEXT, einwohnerzahl TEXT, jahr_sollte_ueberprueft_werden INT );''')
     con.commit()
 
     def parse(self, response):
@@ -34,19 +34,22 @@ class MyWikiSpiderSpider(scrapy.Spider):
     	if response.meta["depth"] == 2:
 
     		ueberschrift = response.xpath('//h1[@id="firstHeading"]/text()').extract_first()
+
+    		einwohnerzahl = response.xpath(' //*[@id="Vorlage_Infobox_Verwaltungseinheit_in_Deutschland"]//td[contains(text(), "Einwohner")]/following-sibling::td/text()').extract_first()
+
     		# Koordinaten auslesen
     		#print('Tiefe 2:')
-    		koordinaten = response.xpath('//*[@id="coordinates"]')
+    		#koordinaten = response.xpath('//*[@id="coordinates"]')
     		#print(ueberschrift)
     		#print("META", str(response.meta['jahr']))
 
-    		if ueberschrift in staedte['Staedte'] and koordinaten:
+    		if ueberschrift in staedte['Staedte']:
 
-    			breitengrad = koordinaten.xpath('descendant::*[@title="Breitengrad"]/text()').extract_first()
-    			laengengrad = koordinaten.xpath('descendant::*[@title="Längengrad"]/text()').extract_first()
+    			breitengrad = response.xpath('//*[@class="latitude"]/text()').extract_first()
+    			laengengrad = response.xpath('//*[@class="longitude"]/text()').extract_first()
 
 
-    			self.cur.execute("INSERT OR IGNORE INTO CityTable VALUES ( ?, ?, ?, ?, ?) ", ( ueberschrift, response.meta['jahr'], breitengrad, laengengrad, response.meta['jahr_unsicher']))
+    			self.cur.execute("INSERT OR IGNORE INTO CityTable VALUES ( ?, ?, ?, ?, ?, ?) ", ( ueberschrift, response.meta['jahr'], breitengrad, laengengrad, einwohnerzahl, response.meta['jahr_unsicher']))
     			self.con.commit()
 
 
