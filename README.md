@@ -1,4 +1,4 @@
-# Web-Scraping von Geodaten, Speicherung (sqlite) und Viualisierung (matplotlib / Tableau)
+# Web-Scraping von Geodaten, Speicherung (sqlite) und Viualisierung (matplotlib / Tableau) + Animation
 
 
 Ein kleines, privates Projekt um die scrapy Webcrawler Bibliothek auszuprobieren. 
@@ -23,9 +23,12 @@ Diese Daten habe ich in einer sqlite Datenbank abgespeichert.
 
 Im angehängten Jupyter Notebook habe ich mit den Visualisierungs Bibliotheken rumgespielt:
 
-!(Jupyter Notebook)(./doc/jupyter-notebook.png)
+![Jupyter Notebook](./doc/jupyter-notebook.png)
 
 Darin findet sich auch eine Funktion, die die Entstehung der Städte simuliert und daraus eine Animation erstellt:
+
+
+## Animiert:
 
 ![Alt Text](./animation/first_generated_animation.gif)
 
@@ -33,4 +36,5 @@ Darin findet sich auch eine Funktion, die die Entstehung der Städte simuliert u
 - [x] scraping der Geodaten
 - [x] Speichern in Datenbank
 - [x] Visualisieren mit matplotlib
+- [x] Animation erstellen
 - [ ] Animation verschönern
