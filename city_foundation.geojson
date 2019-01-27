@@ -1,0 +1,8481 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.4016666666667,50.439722222222 ]
+    },
+    "properties": {
+    "city":"Andernach",
+    "gruendungsjahr":12,
+    "einwohnerzahl":"29.860 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.316666666667,47.733333333333 ]
+    },
+    "properties": {
+    "city":"Kempten (Allgäu)",
+    "gruendungsjahr":15,
+    "einwohnerzahl":"68.330 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.898333333333,48.371666666667 ]
+    },
+    "properties": {
+    "city":"Augsburg",
+    "gruendungsjahr":-15,
+    "einwohnerzahl":"292.851 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.9988888888889,48.394166666667 ]
+    },
+    "properties": {
+    "city":"Neu-Ulm",
+    "gruendungsjahr":1810,
+    "einwohnerzahl":"57.727 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.471944444444,54.353333333333 ]
+    },
+    "properties": {
+    "city":"Putbus",
+    "gruendungsjahr":1810,
+    "einwohnerzahl":"4396 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.969444444444,51.868055555556 ]
+    },
+    "properties": {
+    "city":"Lübbenau/Spreewald",
+    "gruendungsjahr":1315,
+    "einwohnerzahl":"16.090 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.183888888889,48.891944444444 ]
+    },
+    "properties": {
+    "city":"Eichstätt",
+    "gruendungsjahr":740,
+    "einwohnerzahl":"13.512 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.678333333333,48.226666666667 ]
+    },
+    "properties": {
+    "city":"Altötting",
+    "gruendungsjahr":748,
+    "einwohnerzahl":"12.906 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.7069444444444,50.868055555556 ]
+    },
+    "properties": {
+    "city":"Bad Hersfeld",
+    "gruendungsjahr":736,
+    "einwohnerzahl":"29.767 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.4630555555556,49.483611111111 ]
+    },
+    "properties": {
+    "city":"Mannheim",
+    "gruendungsjahr":766,
+    "einwohnerzahl":"307.997 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.022222222222,47.825555555556 ]
+    },
+    "properties": {
+    "city":"Leutkirch im Allgäu",
+    "gruendungsjahr":766,
+    "einwohnerzahl":"22.752 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.6108333333333,51.836666666667 ]
+    },
+    "properties": {
+    "city":"Bocholt",
+    "gruendungsjahr":779,
+    "einwohnerzahl":"71.036 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.2245555555556,49.191694444444 ]
+    },
+    "properties": {
+    "city":"Neckarsulm",
+    "gruendungsjahr":771,
+    "einwohnerzahl":"26.428 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.089444444444,51.259444444444 ]
+    },
+    "properties": {
+    "city":"Kindelbrück",
+    "gruendungsjahr":775,
+    "einwohnerzahl":"1894 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.233333333333,50.811666666667 ]
+    },
+    "properties": {
+    "city":"Bad Salzungen",
+    "gruendungsjahr":775,
+    "einwohnerzahl":"20.509 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1852,48.8598 ]
+    },
+    "properties": {
+    "city":"Kornwestheim",
+    "gruendungsjahr":780,
+    "einwohnerzahl":"33.766 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.290555555556,51.364722222222 ]
+    },
+    "properties": {
+    "city":"Artern/Unstrut",
+    "gruendungsjahr":786,
+    "einwohnerzahl":"5418 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.416666666667,51.121388888889 ]
+    },
+    "properties": {
+    "city":"Buttstädt",
+    "gruendungsjahr":780,
+    "einwohnerzahl":"2502 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.718333333333,50.948888888889 ]
+    },
+    "properties": {
+    "city":"Gotha",
+    "gruendungsjahr":775,
+    "einwohnerzahl":"45.589 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.6286944444444,51.962944444444 ]
+    },
+    "properties": {
+    "city":"Münster",
+    "gruendungsjahr":793,
+    "einwohnerzahl":"313.559 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6361111111111,48.075555555556 ]
+    },
+    "properties": {
+    "city":"Trossingen",
+    "gruendungsjahr":797,
+    "einwohnerzahl":"16.710 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.4122222222222,50.927222222222 ]
+    },
+    "properties": {
+    "city":"Bad Laasphe",
+    "gruendungsjahr":780,
+    "einwohnerzahl":"13.639 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.0158333333333,50.370833333333 ]
+    },
+    "properties": {
+    "city":"Diez",
+    "gruendungsjahr":790,
+    "einwohnerzahl":"11.016 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.7255555555556,48.551944444444 ]
+    },
+    "properties": {
+    "city":"Nagold",
+    "gruendungsjahr":786,
+    "einwohnerzahl":"22.209 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.9166666666667,52.283333333333 ]
+    },
+    "properties": {
+    "city":"Minden",
+    "gruendungsjahr":798,
+    "einwohnerzahl":"81.698 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.795,54.071111111111 ]
+    },
+    "properties": {
+    "city":"Kröpelin",
+    "gruendungsjahr":1177,
+    "einwohnerzahl":"4780 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.974444444444,50.671666666667 ]
+    },
+    "properties": {
+    "city":"Langewiesen",
+    "gruendungsjahr":1198,
+    "einwohnerzahl":"3.544",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.536944444444,52.162222222222 ]
+    },
+    "properties": {
+    "city":"Wolfenbüttel",
+    "gruendungsjahr":1188,
+    "einwohnerzahl":"52.357 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.8244444444444,50.678888888889 ]
+    },
+    "properties": {
+    "city":"Allendorf (Lumda)",
+    "gruendungsjahr":1370,
+    "einwohnerzahl":"4092 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.615833333333,50.504166666667 ]
+    },
+    "properties": {
+    "city":"Themar",
+    "gruendungsjahr":796,
+    "einwohnerzahl":"2888 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14,53.5 ]
+    },
+    "properties": {
+    "city":"Pasewalk",
+    "gruendungsjahr":1177,
+    "einwohnerzahl":"10.281 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.731666666667,51.2825 ]
+    },
+    "properties": {
+    "city":"Ebeleben",
+    "gruendungsjahr":1198,
+    "einwohnerzahl":"2609 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.080833333333,50.775 ]
+    },
+    "properties": {
+    "city":"Stadtilm",
+    "gruendungsjahr":1268,
+    "einwohnerzahl":"8415 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.303055555556,50.620833333333 ]
+    },
+    "properties": {
+    "city":"Reichenbach im Vogtland",
+    "gruendungsjahr":1271,
+    "einwohnerzahl":"20.882 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.1361111111111,50.991666666667 ]
+    },
+    "properties": {
+    "city":"Bergisch Gladbach",
+    "gruendungsjahr":1271,
+    "einwohnerzahl":"111.627 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.716666666667,50.783333333333 ]
+    },
+    "properties": {
+    "city":"Oberlungwitz",
+    "gruendungsjahr":1273,
+    "einwohnerzahl":"5924 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.4513888888889,48.588333333333 ]
+    },
+    "properties": {
+    "city":"Owen",
+    "gruendungsjahr":1261,
+    "einwohnerzahl":"3434 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.79839,52.83448 ]
+    },
+    "properties": {
+    "city":"Eberswalde",
+    "gruendungsjahr":1254,
+    "einwohnerzahl":"40.223 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.779166666667,50.545277777778 ]
+    },
+    "properties": {
+    "city":"Schwarzenberg/Erzgeb.",
+    "gruendungsjahr":1282,
+    "einwohnerzahl":"16.912 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.4,50.509444444444 ]
+    },
+    "properties": {
+    "city":"Auerbach/Vogtl.",
+    "gruendungsjahr":1282,
+    "einwohnerzahl":"18.562 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.716666666667,51.633055555556 ]
+    },
+    "properties": {
+    "city":"Finsterwalde",
+    "gruendungsjahr":1282,
+    "einwohnerzahl":"16.409 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.95,49.45 ]
+    },
+    "properties": {
+    "city":"Zirndorf",
+    "gruendungsjahr":1297,
+    "einwohnerzahl":"25.307 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.950833333333,51.745833333333 ]
+    },
+    "properties": {
+    "city":"Calau",
+    "gruendungsjahr":1279,
+    "einwohnerzahl":"7789 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.1094444444444,50.998333333333 ]
+    },
+    "properties": {
+    "city":"Hilchenbach",
+    "gruendungsjahr":1292,
+    "einwohnerzahl":"14.949 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.3,50.533333333333 ]
+    },
+    "properties": {
+    "city":"Gräfenthal",
+    "gruendungsjahr":1288,
+    "einwohnerzahl":"1980 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.8708333333333,48.596666666667 ]
+    },
+    "properties": {
+    "city":"Herrenberg",
+    "gruendungsjahr":1278,
+    "einwohnerzahl":"31.499 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.419166666667,51.176111111111 ]
+    },
+    "properties": {
+    "city":"Rastenberg",
+    "gruendungsjahr":1294,
+    "einwohnerzahl":"2495 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.004444444444,53.018055555556 ]
+    },
+    "properties": {
+    "city":"Angermünde",
+    "gruendungsjahr":1284,
+    "einwohnerzahl":"13.837 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.130833333333,50.169722222222 ]
+    },
+    "properties": {
+    "city":"Selb",
+    "gruendungsjahr":1281,
+    "einwohnerzahl":"15.111 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.005555555556,51.518888888889 ]
+    },
+    "properties": {
+    "city":"Senftenberg",
+    "gruendungsjahr":1279,
+    "einwohnerzahl":"24.558 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.145277777778,53.184722222222 ]
+    },
+    "properties": {
+    "city":"Fürstenberg/Havel",
+    "gruendungsjahr":1278,
+    "einwohnerzahl":"5846 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.4836111111111,53.471388888889 ]
+    },
+    "properties": {
+    "city":"Aurich",
+    "gruendungsjahr":1276,
+    "einwohnerzahl":"41.854 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.1230555555556,49.199444444444 ]
+    },
+    "properties": {
+    "city":"Landau in der Pfalz",
+    "gruendungsjahr":1274,
+    "einwohnerzahl":"46.292 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.898888888889,50.779444444444 ]
+    },
+    "properties": {
+    "city":"Plaue",
+    "gruendungsjahr":1273,
+    "einwohnerzahl":"2048 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.064166666667,52.358611111111 ]
+    },
+    "properties": {
+    "city":"Fürstenwalde/Spree",
+    "gruendungsjahr":1272,
+    "einwohnerzahl":"32.098 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.25,51.43333 ]
+    },
+    "properties": {
+    "city":"Hoyerswerda",
+    "gruendungsjahr":1268,
+    "einwohnerzahl":"33.116 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.246944444444,52.171666666667 ]
+    },
+    "properties": {
+    "city":"Beeskow",
+    "gruendungsjahr":1272,
+    "einwohnerzahl":"8080 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.337291,53.923852 ]
+    },
+    "properties": {
+    "city":"Jarmen",
+    "gruendungsjahr":1269,
+    "einwohnerzahl":"2948 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.041388888889,54.11 ]
+    },
+    "properties": {
+    "city":"Grimmen",
+    "gruendungsjahr":1267,
+    "einwohnerzahl":"9733 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.05,50.716666666667 ]
+    },
+    "properties": {
+    "city":"Hohenleuben",
+    "gruendungsjahr":1267,
+    "einwohnerzahl":"1461 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.914166666667,50.687222222222 ]
+    },
+    "properties": {
+    "city":"Ilmenau",
+    "gruendungsjahr":1273,
+    "einwohnerzahl":"39.017 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.75,53.5 ]
+    },
+    "properties": {
+    "city":"Strasburg (Uckermark)",
+    "gruendungsjahr":1267,
+    "einwohnerzahl":"4829 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.143611111111,49.666944444444 ]
+    },
+    "properties": {
+    "city":"Marktbreit",
+    "gruendungsjahr":1266,
+    "einwohnerzahl":"3861 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.785,48.411944444444 ]
+    },
+    "properties": {
+    "city":"Blaubeuren",
+    "gruendungsjahr":1267,
+    "einwohnerzahl":"12.401 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.287777777778,53.055555555556 ]
+    },
+    "properties": {
+    "city":"Schwedt/Oder",
+    "gruendungsjahr":1265,
+    "einwohnerzahl":"30.075 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.263611111111,50.684444444444 ]
+    },
+    "properties": {
+    "city":"Bad Blankenburg",
+    "gruendungsjahr":1267,
+    "einwohnerzahl":"6515 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.6583333333333,51.116666666667 ]
+    },
+    "properties": {
+    "city":"Spangenberg",
+    "gruendungsjahr":1261,
+    "einwohnerzahl":"6278 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.808333333333,51.129166666667 ]
+    },
+    "properties": {
+    "city":"Colditz",
+    "gruendungsjahr":1265,
+    "einwohnerzahl":"8625 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.133333333333,53.4 ]
+    },
+    "properties": {
+    "city":"Brüssow",
+    "gruendungsjahr":1259,
+    "einwohnerzahl":"1859 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1158333333333,50.850277777778 ]
+    },
+    "properties": {
+    "city":"Neustadt (Hessen)",
+    "gruendungsjahr":1260,
+    "einwohnerzahl":"9420 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.633055555556,52.766666666667 ]
+    },
+    "properties": {
+    "city":"Biesenthal",
+    "gruendungsjahr":1258,
+    "einwohnerzahl":"5734 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.536903,51.050429 ]
+    },
+    "properties": {
+    "city":"Wilsdruff",
+    "gruendungsjahr":1259,
+    "einwohnerzahl":"14.140 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.65,50.615277777778 ]
+    },
+    "properties": {
+    "city":"Ziegenrück",
+    "gruendungsjahr":1258,
+    "einwohnerzahl":"647 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.366666666667,50.466666666667 ]
+    },
+    "properties": {
+    "city":"Falkenstein/Vogtl.",
+    "gruendungsjahr":1260,
+    "einwohnerzahl":"8136 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.352777777778,49.8175 ]
+    },
+    "properties": {
+    "city":"Prichsenstadt",
+    "gruendungsjahr":1258,
+    "einwohnerzahl":"3067 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.39252,51.04766 ]
+    },
+    "properties": {
+    "city":"Bad Berleburg",
+    "gruendungsjahr":1258,
+    "einwohnerzahl":"19.497 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.933333333333,50.816666666667 ]
+    },
+    "properties": {
+    "city":"Münchenbernsdorf",
+    "gruendungsjahr":1251,
+    "einwohnerzahl":"2936 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.848611111111,48.816944444444 ]
+    },
+    "properties": {
+    "city":"Abensberg",
+    "gruendungsjahr":1256,
+    "einwohnerzahl":"13.765 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.594444444444,50.693888888889 ]
+    },
+    "properties": {
+    "city":"Pößneck",
+    "gruendungsjahr":1252,
+    "einwohnerzahl":"11.981 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.544722222222,52.481944444444 ]
+    },
+    "properties": {
+    "city":"Gifhorn",
+    "gruendungsjahr":1196,
+    "einwohnerzahl":"42.239 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.71,49.412222222222 ]
+    },
+    "properties": {
+    "city":"Heidelberg",
+    "gruendungsjahr":1196,
+    "einwohnerzahl":"160.601 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.343888888889,50.86 ]
+    },
+    "properties": {
+    "city":"Blankenhain",
+    "gruendungsjahr":1252,
+    "einwohnerzahl":"6411 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.578333333333,49.948055555556 ]
+    },
+    "properties": {
+    "city":"Bayreuth",
+    "gruendungsjahr":1194,
+    "einwohnerzahl":"73.999 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.3925,52.526388888889 ]
+    },
+    "properties": {
+    "city":"Gardelegen",
+    "gruendungsjahr":1190,
+    "einwohnerzahl":"22.614 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.5,51.116666666667 ]
+    },
+    "properties": {
+    "city":"Borna",
+    "gruendungsjahr":1251,
+    "einwohnerzahl":"19.263 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.1666666666667,50.883333333333 ]
+    },
+    "properties": {
+    "city":"Alsdorf",
+    "gruendungsjahr":1191,
+    "einwohnerzahl":"46.891 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.232222222222,51.583055555556 ]
+    },
+    "properties": {
+    "city":"Falkenberg/Elster",
+    "gruendungsjahr":1251,
+    "einwohnerzahl":"6406 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.720833333333,51.545833333333 ]
+    },
+    "properties": {
+    "city":"Bad Muskau",
+    "gruendungsjahr":1249,
+    "einwohnerzahl":"3658 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.684722222222,53.626944444444 ]
+    },
+    "properties": {
+    "city":"Mölln",
+    "gruendungsjahr":1188,
+    "einwohnerzahl":"18.928 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.536666666667,50.463888888889 ]
+    },
+    "properties": {
+    "city":"Wurzbach",
+    "gruendungsjahr":1250,
+    "einwohnerzahl":"3159 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.380555555556,50.395833333333 ]
+    },
+    "properties": {
+    "city":"Teuschnitz",
+    "gruendungsjahr":1187,
+    "einwohnerzahl":"1978 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.64,50.4475 ]
+    },
+    "properties": {
+    "city":"Bad Lobenstein",
+    "gruendungsjahr":1250,
+    "einwohnerzahl":"5997 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.3,51.05 ]
+    },
+    "properties": {
+    "city":"Nossen",
+    "gruendungsjahr":1185,
+    "einwohnerzahl":"10.694 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.35,51.666666666667 ]
+    },
+    "properties": {
+    "city":"Lippstadt",
+    "gruendungsjahr":1185,
+    "einwohnerzahl":"67.936 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.342777777778,50.911944444444 ]
+    },
+    "properties": {
+    "city":"Freiberg",
+    "gruendungsjahr":1185,
+    "einwohnerzahl":"41.496 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.133611111111,51.221666666667 ]
+    },
+    "properties": {
+    "city":"Elstra",
+    "gruendungsjahr":1248,
+    "einwohnerzahl":"2744 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.25,51.383333333333 ]
+    },
+    "properties": {
+    "city":"Wittichenau",
+    "gruendungsjahr":1248,
+    "einwohnerzahl":"5741 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.903055555556,51.263888888889 ]
+    },
+    "properties": {
+    "city":"Königsbrück",
+    "gruendungsjahr":1248,
+    "einwohnerzahl":"4417 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.1136111111111,51.085555555556 ]
+    },
+    "properties": {
+    "city":"Burscheid",
+    "gruendungsjahr":1180,
+    "einwohnerzahl":"18.195 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.2013888888889,48.050277777778 ]
+    },
+    "properties": {
+    "city":"Furtwangen im Schwarzwald",
+    "gruendungsjahr":1179,
+    "einwohnerzahl":"9079 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.855277777778,53.896944444444 ]
+    },
+    "properties": {
+    "city":"Dargun",
+    "gruendungsjahr":1178,
+    "einwohnerzahl":"4410 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.261,53.557 ]
+    },
+    "properties": {
+    "city":"Neubrandenburg",
+    "gruendungsjahr":1248,
+    "einwohnerzahl":"64.259 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.0130555555556,48.801388888889 ]
+    },
+    "properties": {
+    "city":"Leonberg",
+    "gruendungsjahr":1248,
+    "einwohnerzahl":"48.222 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.881388888889,52.580833333333 ]
+    },
+    "properties": {
+    "city":"Strausberg",
+    "gruendungsjahr":1247,
+    "einwohnerzahl":"26.522 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.586361111111,50.927205555556 ]
+    },
+    "properties": {
+    "city":"Jena",
+    "gruendungsjahr":1182,
+    "einwohnerzahl":"111.099 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.729166666667,50.858055555556 ]
+    },
+    "properties": {
+    "city":"Stadtroda",
+    "gruendungsjahr":1247,
+    "einwohnerzahl":"6653 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.815833333333,54.107222222222 ]
+    },
+    "properties": {
+    "city":"Neustadt in Holstein",
+    "gruendungsjahr":1244,
+    "einwohnerzahl":"15.187 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.3194444444444,48.803888888889 ]
+    },
+    "properties": {
+    "city":"Gaggenau",
+    "gruendungsjahr":1243,
+    "einwohnerzahl":"29.615 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.25,53.7 ]
+    },
+    "properties": {
+    "city":"Altentreptow",
+    "gruendungsjahr":1175,
+    "einwohnerzahl":"5308 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.909444444444,48.955277777778 ]
+    },
+    "properties": {
+    "city":"Treuchtlingen",
+    "gruendungsjahr":899,
+    "einwohnerzahl":"12.911 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.31586,50.98321 ]
+    },
+    "properties": {
+    "city":"Eisenach",
+    "gruendungsjahr":1180,
+    "einwohnerzahl":"42.710 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.1994444444444,51.178333333333 ]
+    },
+    "properties": {
+    "city":"Remscheid",
+    "gruendungsjahr":1173,
+    "einwohnerzahl":"110.584 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.3044444444444,48.045277777778 ]
+    },
+    "properties": {
+    "city":"Vöhrenbach",
+    "gruendungsjahr":1244,
+    "einwohnerzahl":"3825 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.688611111111,53.855555555556 ]
+    },
+    "properties": {
+    "city":"Anklam",
+    "gruendungsjahr":1243,
+    "einwohnerzahl":"12.521 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.544444444444,50.823333333333 ]
+    },
+    "properties": {
+    "city":"Glauchau",
+    "gruendungsjahr":1240,
+    "einwohnerzahl":"22.718 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.751388888889,52.993611111111 ]
+    },
+    "properties": {
+    "city":"Wittenberge",
+    "gruendungsjahr":1239,
+    "einwohnerzahl":"17.201 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.969012,49.059625 ]
+    },
+    "properties": {
+    "city":"Ellingen",
+    "gruendungsjahr":899,
+    "einwohnerzahl":"3786 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.129444444444,53.973611111111 ]
+    },
+    "properties": {
+    "city":"Loitz",
+    "gruendungsjahr":1170,
+    "einwohnerzahl":"4276 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.5236111111111,48.714722222222 ]
+    },
+    "properties": {
+    "city":"Ebersbach an der Fils",
+    "gruendungsjahr":1170,
+    "einwohnerzahl":"15.386 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.235555555556,51.6925 ]
+    },
+    "properties": {
+    "city":"Herzberg (Elster)",
+    "gruendungsjahr":1239,
+    "einwohnerzahl":"9087 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.329722222222,50.979444444444 ]
+    },
+    "properties": {
+    "city":"Weimar",
+    "gruendungsjahr":899,
+    "einwohnerzahl":"64.426 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6822222222222,50.110555555556 ]
+    },
+    "properties": {
+    "city":"Frankfurt am Main",
+    "gruendungsjahr":794,
+    "einwohnerzahl":"746.878 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.354286111111,50.650511111111 ]
+    },
+    "properties": {
+    "city":"Saalfeld/Saale",
+    "gruendungsjahr":899,
+    "einwohnerzahl":"29.640 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.235555555556,53.297777777778 ]
+    },
+    "properties": {
+    "city":"Penkun",
+    "gruendungsjahr":1240,
+    "einwohnerzahl":"1806 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.489575,48.850830555556 ]
+    },
+    "properties": {
+    "city":"Nördlingen",
+    "gruendungsjahr":898,
+    "einwohnerzahl":"20.236 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.0858333333333,51.653888888889 ]
+    },
+    "properties": {
+    "city":"Marl",
+    "gruendungsjahr":890,
+    "einwohnerzahl":"83.695 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.158611111111,50.626388888889 ]
+    },
+    "properties": {
+    "city":"Kaltennordheim",
+    "gruendungsjahr":795,
+    "einwohnerzahl":"3326 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.129722222222,50.782222222222 ]
+    },
+    "properties": {
+    "city":"Stadtlengsfeld",
+    "gruendungsjahr":897,
+    "einwohnerzahl":"2356 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.35,54.316666666667 ]
+    },
+    "properties": {
+    "city":"Garz/Rügen",
+    "gruendungsjahr":1168,
+    "einwohnerzahl":"2201 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.805316666667,52.924894444444 ]
+    },
+    "properties": {
+    "city":"Neuruppin",
+    "gruendungsjahr":1238,
+    "einwohnerzahl":"30.889 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.433055555556,51.866666666667 ]
+    },
+    "properties": {
+    "city":"Dahme/Mark",
+    "gruendungsjahr":1164,
+    "einwohnerzahl":"4930 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.408333333333,52.518611111111 ]
+    },
+    "properties": {
+    "city":"Berlin",
+    "gruendungsjahr":1237,
+    "einwohnerzahl":"3.613.495",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.52629,48.80463 ]
+    },
+    "properties": {
+    "city":"Schorndorf",
+    "gruendungsjahr":1235,
+    "einwohnerzahl":"39.601 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.8,51.141666 ]
+    },
+    "properties": {
+    "city":"Reichenbach/O.L.",
+    "gruendungsjahr":1238,
+    "einwohnerzahl":"4968 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.234166666667,50.045 ]
+    },
+    "properties": {
+    "city":"Schweinfurt",
+    "gruendungsjahr":791,
+    "einwohnerzahl":"53.437 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.5769444444444,50.202777777778 ]
+    },
+    "properties": {
+    "city":"Oberursel (Taunus)",
+    "gruendungsjahr":791,
+    "einwohnerzahl":"46.069 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.16015,48.30449 ]
+    },
+    "properties": {
+    "city":"Weißenhorn",
+    "gruendungsjahr":1160,
+    "einwohnerzahl":"13.436 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.2175,49.711111111111 ]
+    },
+    "properties": {
+    "city":"Mainbernheim",
+    "gruendungsjahr":889,
+    "einwohnerzahl":"2165 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.807222222222,50.896111111111 ]
+    },
+    "properties": {
+    "city":"Zittau",
+    "gruendungsjahr":1238,
+    "einwohnerzahl":"25.575 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.3169444444444,48.830277777778 ]
+    },
+    "properties": {
+    "city":"Waiblingen",
+    "gruendungsjahr":885,
+    "einwohnerzahl":"55.123 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.433333333333,51.297777777778 ]
+    },
+    "properties": {
+    "city":"Roßleben",
+    "gruendungsjahr":890,
+    "einwohnerzahl":"4885 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.7626916666667,51.435147222222 ]
+    },
+    "properties": {
+    "city":"Duisburg",
+    "gruendungsjahr":883,
+    "einwohnerzahl":"498.110 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.716666666667,54.366666666667 ]
+    },
+    "properties": {
+    "city":"Barth",
+    "gruendungsjahr":1159,
+    "einwohnerzahl":"8643 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.6388888888889,47.954166666667 ]
+    },
+    "properties": {
+    "city":"Aulendorf",
+    "gruendungsjahr":1950,
+    "einwohnerzahl":"10.214 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.575555555556,48.137222222222 ]
+    },
+    "properties": {
+    "city":"München",
+    "gruendungsjahr":1158,
+    "einwohnerzahl":"1.456.039 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.595555555556,52.142222222222 ]
+    },
+    "properties": {
+    "city":"Bad Belzig",
+    "gruendungsjahr":997,
+    "einwohnerzahl":"11.126 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7,49.233333333333 ]
+    },
+    "properties": {
+    "city":"Saarbrücken",
+    "gruendungsjahr":999,
+    "einwohnerzahl":"180.966 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.15,52.966666666667 ]
+    },
+    "properties": {
+    "city":"Lüchow (Wendland)",
+    "gruendungsjahr":1158,
+    "einwohnerzahl":"9256 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.97375,49.567569444444 ]
+    },
+    "properties": {
+    "city":"Beerfelden",
+    "gruendungsjahr":2018,
+    "einwohnerzahl":"3.376",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.101111111111,51.355833333333 ]
+    },
+    "properties": {
+    "city":"Bad Frankenhausen/Kyffhäuser",
+    "gruendungsjahr":998,
+    "einwohnerzahl":"10.299 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.083333333333,50.880555555556 ]
+    },
+    "properties": {
+    "city":"Gera",
+    "gruendungsjahr":995,
+    "einwohnerzahl":"94.859 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.128888888889,47.856111111111 ]
+    },
+    "properties": {
+    "city":"Rosenheim",
+    "gruendungsjahr":1234,
+    "einwohnerzahl":"63.080 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6761111111111,52.117222222222 ]
+    },
+    "properties": {
+    "city":"Herford",
+    "gruendungsjahr":789,
+    "einwohnerzahl":"66.923 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.40324,48.94142 ]
+    },
+    "properties": {
+    "city":"Ettlingen",
+    "gruendungsjahr":788,
+    "einwohnerzahl":"39.315 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.4125,51.265 ]
+    },
+    "properties": {
+    "city":"Wiehe",
+    "gruendungsjahr":786,
+    "einwohnerzahl":"1871 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.5875,47.670833333333 ]
+    },
+    "properties": {
+    "city":"Tettnang",
+    "gruendungsjahr":882,
+    "einwohnerzahl":"19.055 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.6838888888889,47.545833333333 ]
+    },
+    "properties": {
+    "city":"Lindau (Bodensee)",
+    "gruendungsjahr":882,
+    "einwohnerzahl":"25.253 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.032222222222,50.2475 ]
+    },
+    "properties": {
+    "city":"Rehau",
+    "gruendungsjahr":1234,
+    "einwohnerzahl":"9445 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.2238888888889,51.541944444444 ]
+    },
+    "properties": {
+    "city":"Herne",
+    "gruendungsjahr":880,
+    "einwohnerzahl":"156.490 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.7105555555556,50.338055555556 ]
+    },
+    "properties": {
+    "city":"Bad Ems",
+    "gruendungsjahr":880,
+    "einwohnerzahl":"9568 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.8927777777778,51.091666666667 ]
+    },
+    "properties": {
+    "city":"Monheim am Rhein",
+    "gruendungsjahr":1157,
+    "einwohnerzahl":"40.598 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.9575,52.677222222222 ]
+    },
+    "properties": {
+    "city":"Quakenbrück",
+    "gruendungsjahr":1235,
+    "einwohnerzahl":"13.366 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.6691666666667,53.687222222222 ]
+    },
+    "properties": {
+    "city":"Uetersen",
+    "gruendungsjahr":1234,
+    "einwohnerzahl":"18.429 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.880833333333,51.447222222222 ]
+    },
+    "properties": {
+    "city":"Heringen/Helme",
+    "gruendungsjahr":1155,
+    "einwohnerzahl":"4787 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.06569,51.30017 ]
+    },
+    "properties": {
+    "city":"Bad Dürrenberg",
+    "gruendungsjahr":993,
+    "einwohnerzahl":"11.745 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.5,50.166666666667 ]
+    },
+    "properties": {
+    "city":"Stadtsteinach",
+    "gruendungsjahr":1151,
+    "einwohnerzahl":"3161 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.2708333333333,47.695833333333 ]
+    },
+    "properties": {
+    "city":"Meersburg",
+    "gruendungsjahr":988,
+    "einwohnerzahl":"5846 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.0027777777778,48.713333333333 ]
+    },
+    "properties": {
+    "city":"Sindelfingen",
+    "gruendungsjahr":1155,
+    "einwohnerzahl":"64.599 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1413888888889,48.998888888889 ]
+    },
+    "properties": {
+    "city":"Besigheim",
+    "gruendungsjahr":1153,
+    "einwohnerzahl":"12.404 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.334166666667,51.760555555556 ]
+    },
+    "properties": {
+    "city":"Cottbus",
+    "gruendungsjahr":1156,
+    "einwohnerzahl":"101.036 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.728888888889,50.426111111111 ]
+    },
+    "properties": {
+    "city":"Hildburghausen",
+    "gruendungsjahr":1234,
+    "einwohnerzahl":"11.761 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.4638888888889,51.514166666667 ]
+    },
+    "properties": {
+    "city":"Dortmund",
+    "gruendungsjahr":882,
+    "einwohnerzahl":"586.600 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.8813888888889,48.425277777778 ]
+    },
+    "properties": {
+    "city":"Blaustein",
+    "gruendungsjahr":2014,
+    "einwohnerzahl":"15.965 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.039444444444,47.691944444444 ]
+    },
+    "properties": {
+    "city":"Isny im Allgäu",
+    "gruendungsjahr":1096,
+    "einwohnerzahl":"13.847 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.8041666666667,48.366388888889 ]
+    },
+    "properties": {
+    "city":"Haigerloch",
+    "gruendungsjahr":1095,
+    "einwohnerzahl":"10.637 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.3375,49.869444444444 ]
+    },
+    "properties": {
+    "city":"Nierstein",
+    "gruendungsjahr":2013,
+    "einwohnerzahl":"8424 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.7508055555556,53.63125 ]
+    },
+    "properties": {
+    "city":"Geestland",
+    "gruendungsjahr":2015,
+    "einwohnerzahl":"30.873 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.826388888889,51.045833333333 ]
+    },
+    "properties": {
+    "city":"Bernstadt a. d. Eigen",
+    "gruendungsjahr":1234,
+    "einwohnerzahl":"3365 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.117222222222,51.161944444444 ]
+    },
+    "properties": {
+    "city":"Sömmerda",
+    "gruendungsjahr":876,
+    "einwohnerzahl":"19.078 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.9633333333333,48.351666666667 ]
+    },
+    "properties": {
+    "city":"Hechingen",
+    "gruendungsjahr":786,
+    "einwohnerzahl":"19.157 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.504166666667,52.05 ]
+    },
+    "properties": {
+    "city":"Baruth/Mark",
+    "gruendungsjahr":1234,
+    "einwohnerzahl":"4137 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.668055555556,51.585555555556 ]
+    },
+    "properties": {
+    "city":"Ellrich",
+    "gruendungsjahr":876,
+    "einwohnerzahl":"5561 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.934722222222,51.113888888889 ]
+    },
+    "properties": {
+    "city":"Gebesee",
+    "gruendungsjahr":786,
+    "einwohnerzahl":"2129 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.446111111111,50.906666666667 ]
+    },
+    "properties": {
+    "city":"Magdala",
+    "gruendungsjahr":876,
+    "einwohnerzahl":"2014 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.05,51.333333333333 ]
+    },
+    "properties": {
+    "city":"Velbert",
+    "gruendungsjahr":875,
+    "einwohnerzahl":"82.061 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.366666666667,50.666666666667 ]
+    },
+    "properties": {
+    "city":"Wasungen",
+    "gruendungsjahr":874,
+    "einwohnerzahl":"5605 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.5875,50.800833333333 ]
+    },
+    "properties": {
+    "city":"Kahla",
+    "gruendungsjahr":876,
+    "einwohnerzahl":"6902 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.248333333333,51.188888888889 ]
+    },
+    "properties": {
+    "city":"Kölleda",
+    "gruendungsjahr":786,
+    "einwohnerzahl":"6455 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.8280555555556,49.9775 ]
+    },
+    "properties": {
+    "city":"Rödermark",
+    "gruendungsjahr":1977,
+    "einwohnerzahl":"27.840 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.215688,51.141088 ]
+    },
+    "properties": {
+    "city":"Wermelskirchen",
+    "gruendungsjahr":1150,
+    "einwohnerzahl":"34.705 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.6630555555556,54.306388888889 ]
+    },
+    "properties": {
+    "city":"Rendsburg",
+    "gruendungsjahr":1150,
+    "einwohnerzahl":"28.789 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6961111111111,50.018888888889 ]
+    },
+    "properties": {
+    "city":"Dreieich",
+    "gruendungsjahr":1977,
+    "einwohnerzahl":"41.548 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.5661111111111,49.989583333333 ]
+    },
+    "properties": {
+    "city":"Mörfelden-Walldorf",
+    "gruendungsjahr":1977,
+    "einwohnerzahl":"34.315 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.8841666666667,50.025555555556 ]
+    },
+    "properties": {
+    "city":"Rodgau",
+    "gruendungsjahr":1977,
+    "einwohnerzahl":"44.725 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.5833333333333,52.866666666667 ]
+    },
+    "properties": {
+    "city":"Walsrode",
+    "gruendungsjahr":986,
+    "einwohnerzahl":"23.089 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.998333333333,52.674166666667 ]
+    },
+    "properties": {
+    "city":"Arneburg",
+    "gruendungsjahr":984,
+    "einwohnerzahl":"1512 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.7386111111111,52.374444444444 ]
+    },
+    "properties": {
+    "city":"Hannover",
+    "gruendungsjahr":1150,
+    "einwohnerzahl":"535.061 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.415555555556,50.567777777778 ]
+    },
+    "properties": {
+    "city":"Meiningen",
+    "gruendungsjahr":982,
+    "einwohnerzahl":"24.267 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.634444444444,52.319166666667 ]
+    },
+    "properties": {
+    "city":"Wildau",
+    "gruendungsjahr":2013,
+    "einwohnerzahl":"10.093 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.221666666667,51.396111111111 ]
+    },
+    "properties": {
+    "city":"Schkeuditz",
+    "gruendungsjahr":981,
+    "einwohnerzahl":"17.905 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.705833333333,50.933611111111 ]
+    },
+    "properties": {
+    "city":"Penig",
+    "gruendungsjahr":981,
+    "einwohnerzahl":"8804 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.14019,54.32321 ]
+    },
+    "properties": {
+    "city":"Kiel",
+    "gruendungsjahr":1233,
+    "einwohnerzahl":"247.943 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.3463888888889,49.964583333333 ]
+    },
+    "properties": {
+    "city":"Ginsheim-Gustavsburg",
+    "gruendungsjahr":2013,
+    "einwohnerzahl":"16.480 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.752777777778,50.510555555556 ]
+    },
+    "properties": {
+    "city":"Schleusingen",
+    "gruendungsjahr":1232,
+    "einwohnerzahl":"11.059 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.0738888888889,48.631388888889 ]
+    },
+    "properties": {
+    "city":"Achern",
+    "gruendungsjahr":1095,
+    "einwohnerzahl":"25.445 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.3666666666667,49.216666666667 ]
+    },
+    "properties": {
+    "city":"Germersheim",
+    "gruendungsjahr":1090,
+    "einwohnerzahl":"20.691 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.861111111111,50.494444444444 ]
+    },
+    "properties": {
+    "city":"Tanna",
+    "gruendungsjahr":1232,
+    "einwohnerzahl":"3612 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.816666666667,50.583333333333 ]
+    },
+    "properties": {
+    "city":"Schleiz",
+    "gruendungsjahr":1232,
+    "einwohnerzahl":"8842 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.4027777777778,48.345 ]
+    },
+    "properties": {
+    "city":"Alpirsbach",
+    "gruendungsjahr":1095,
+    "einwohnerzahl":"6388 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.2166666666667,48.483333333333 ]
+    },
+    "properties": {
+    "city":"Reutlingen",
+    "gruendungsjahr":1089,
+    "einwohnerzahl":"115.762 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.6136111111111,47.781944444444 ]
+    },
+    "properties": {
+    "city":"Ravensburg",
+    "gruendungsjahr":1088,
+    "einwohnerzahl":"50.393 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.451111111111,50.721388888889 ]
+    },
+    "properties": {
+    "city":"Schmalkalden",
+    "gruendungsjahr":874,
+    "einwohnerzahl":"19.828 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.2830555555556,50.568611111111 ]
+    },
+    "properties": {
+    "city":"Linz am Rhein",
+    "gruendungsjahr":874,
+    "einwohnerzahl":"6078 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.968919,52.377946 ]
+    },
+    "properties": {
+    "city":"Petershagen",
+    "gruendungsjahr":784,
+    "einwohnerzahl":"25.131 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.4666666666667,50.583333333333 ]
+    },
+    "properties": {
+    "city":"Aßlar",
+    "gruendungsjahr":783,
+    "einwohnerzahl":"13.605 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.9872222222222,48.400833333333 ]
+    },
+    "properties": {
+    "city":"Ulm",
+    "gruendungsjahr":854,
+    "einwohnerzahl":"125.596 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.5804333333333,52.197269444444 ]
+    },
+    "properties": {
+    "city":"Bünde",
+    "gruendungsjahr":853,
+    "einwohnerzahl":"45.712 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.8505555555556,48.273055555556 ]
+    },
+    "properties": {
+    "city":"Balingen",
+    "gruendungsjahr":863,
+    "einwohnerzahl":"34.062 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.929722222222,51.234444444444 ]
+    },
+    "properties": {
+    "city":"Clingen",
+    "gruendungsjahr":860,
+    "einwohnerzahl":"1051 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.3655555555556,48.811111111111 ]
+    },
+    "properties": {
+    "city":"Weinstadt",
+    "gruendungsjahr":1976,
+    "einwohnerzahl":"26.884 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1427777777778,48.692777777778 ]
+    },
+    "properties": {
+    "city":"Leinfelden-Echterdingen",
+    "gruendungsjahr":1975,
+    "einwohnerzahl":"39.826 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.7066666666667,48.693333333333 ]
+    },
+    "properties": {
+    "city":"Eislingen/Fils",
+    "gruendungsjahr":861,
+    "einwohnerzahl":"20.795 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.9408333333333,48.470833333333 ]
+    },
+    "properties": {
+    "city":"Offenburg",
+    "gruendungsjahr":1148,
+    "einwohnerzahl":"59.060 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.2125,48.661666666667 ]
+    },
+    "properties": {
+    "city":"Filderstadt",
+    "gruendungsjahr":1975,
+    "einwohnerzahl":"45.807 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.9769444444444,52.3725 ]
+    },
+    "properties": {
+    "city":"Lehrte",
+    "gruendungsjahr":1147,
+    "einwohnerzahl":"43.932 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.8073111111111,53.075877777778 ]
+    },
+    "properties": {
+    "city":"Bremen",
+    "gruendungsjahr":782,
+    "einwohnerzahl":"568.006 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.6230555555556,48.096111111111 ]
+    },
+    "properties": {
+    "city":"Vogtsburg im Kaiserstuhl",
+    "gruendungsjahr":1975,
+    "einwohnerzahl":"5912 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.4867,52.8767 ]
+    },
+    "properties": {
+    "city":"Arendsee (Altmark)",
+    "gruendungsjahr":1148,
+    "einwohnerzahl":"6722 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.2586111111111,48.728888888889 ]
+    },
+    "properties": {
+    "city":"Ostfildern",
+    "gruendungsjahr":1975,
+    "einwohnerzahl":"39.205 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.4163888888889,48.711666666667 ]
+    },
+    "properties": {
+    "city":"Plochingen",
+    "gruendungsjahr":1146,
+    "einwohnerzahl":"14.213 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.0237,51.12088 ]
+    },
+    "properties": {
+    "city":"Teuchern",
+    "gruendungsjahr":976,
+    "einwohnerzahl":"8095 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.75,50.566666666667 ]
+    },
+    "properties": {
+    "city":"Lauter-Bernsbach",
+    "gruendungsjahr":2013,
+    "einwohnerzahl":"8762 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.87306,51.27194 ]
+    },
+    "properties": {
+    "city":"Korbach",
+    "gruendungsjahr":980,
+    "einwohnerzahl":"23.631 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.9897222222222,51.893888888889 ]
+    },
+    "properties": {
+    "city":"Velen",
+    "gruendungsjahr":2012,
+    "einwohnerzahl":"12.989 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.715915,50.236773 ]
+    },
+    "properties": {
+    "city":"Helmbrechts",
+    "gruendungsjahr":1232,
+    "einwohnerzahl":"8442 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.433333333333,54.416666666667 ]
+    },
+    "properties": {
+    "city":"Bergen auf Rügen",
+    "gruendungsjahr":1232,
+    "einwohnerzahl":"13.555 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.5319444444444,50.91 ]
+    },
+    "properties": {
+    "city":"Biedenkopf",
+    "gruendungsjahr":1232,
+    "einwohnerzahl":"13.689 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.125916666667,51.482222222222 ]
+    },
+    "properties": {
+    "city":"Belgern-Schildau",
+    "gruendungsjahr":2013,
+    "einwohnerzahl":"7771 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.4055555555556,51.033888888889 ]
+    },
+    "properties": {
+    "city":"Homberg (Efze)",
+    "gruendungsjahr":1231,
+    "einwohnerzahl":"14.039 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.9808333333333,50.163472222222 ]
+    },
+    "properties": {
+    "city":"Erlensee",
+    "gruendungsjahr":2012,
+    "einwohnerzahl":"14.578 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.2027777777778,48.856944444444 ]
+    },
+    "properties": {
+    "city":"Rastatt",
+    "gruendungsjahr":1084,
+    "einwohnerzahl":"49.100 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.89,54.200555555556 ]
+    },
+    "properties": {
+    "city":"Richtenberg",
+    "gruendungsjahr":1231,
+    "einwohnerzahl":"1295 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.0244444444444,50.874444444444 ]
+    },
+    "properties": {
+    "city":"Siegen",
+    "gruendungsjahr":1079,
+    "einwohnerzahl":"102.337 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6047222222222,48.586388888889 ]
+    },
+    "properties": {
+    "city":"Altensteig",
+    "gruendungsjahr":1085,
+    "einwohnerzahl":"10.523 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.245,48.621666666667 ]
+    },
+    "properties": {
+    "city":"Giengen an der Brenz",
+    "gruendungsjahr":1078,
+    "einwohnerzahl":"19.632 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.053363,48.520144 ]
+    },
+    "properties": {
+    "city":"Tübingen",
+    "gruendungsjahr":1078,
+    "einwohnerzahl":"89.447 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.0430555555556,52.278888888889 ]
+    },
+    "properties": {
+    "city":"Osnabrück",
+    "gruendungsjahr":780,
+    "einwohnerzahl":"164.374 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1125,47.992777777778 ]
+    },
+    "properties": {
+    "city":"Meßkirch",
+    "gruendungsjahr":1080,
+    "einwohnerzahl":"8346 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.8911111111111,51.763333333333 ]
+    },
+    "properties": {
+    "city":"Ahlen",
+    "gruendungsjahr":850,
+    "einwohnerzahl":"52.530 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.8522222222222,51.295555555556 ]
+    },
+    "properties": {
+    "city":"Ratingen",
+    "gruendungsjahr":849,
+    "einwohnerzahl":"87.226 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.2147222222222,48.086388888889 ]
+    },
+    "properties": {
+    "city":"Sigmaringen",
+    "gruendungsjahr":1077,
+    "einwohnerzahl":"17.073 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.298055555556,51.473055555556 ]
+    },
+    "properties": {
+    "city":"Sangerhausen",
+    "gruendungsjahr":840,
+    "einwohnerzahl":"26.798 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.4313888888889,52.893055555556 ]
+    },
+    "properties": {
+    "city":"Wildeshausen",
+    "gruendungsjahr":851,
+    "einwohnerzahl":"19.751 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.0808333333333,48.904722222222 ]
+    },
+    "properties": {
+    "city":"Markgröningen",
+    "gruendungsjahr":779,
+    "einwohnerzahl":"14.804 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.0319444444444,48.230555555556 ]
+    },
+    "properties": {
+    "city":"Albstadt",
+    "gruendungsjahr":1975,
+    "einwohnerzahl":"45.023 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.8233333333333,52.034444444444 ]
+    },
+    "properties": {
+    "city":"Vreden",
+    "gruendungsjahr":839,
+    "einwohnerzahl":"22.561 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.46682,51.69042 ]
+    },
+    "properties": {
+    "city":"Selm",
+    "gruendungsjahr":1975,
+    "einwohnerzahl":"25.811 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.918762,50.820067 ]
+    },
+    "properties": {
+    "city":"Kirchhain",
+    "gruendungsjahr":1146,
+    "einwohnerzahl":"16.297 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.7166666666667,52.277777777778 ]
+    },
+    "properties": {
+    "city":"Ibbenbüren",
+    "gruendungsjahr":1146,
+    "einwohnerzahl":"52.037 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.8333333333333,50.15 ]
+    },
+    "properties": {
+    "city":"Maintal",
+    "gruendungsjahr":1974,
+    "einwohnerzahl":"38.930 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.9805555555556,49.344444444444 ]
+    },
+    "properties": {
+    "city":"Schrozberg",
+    "gruendungsjahr":1973,
+    "einwohnerzahl":"5727 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.2,50.85 ]
+    },
+    "properties": {
+    "city":"Kranichfeld",
+    "gruendungsjahr":1143,
+    "einwohnerzahl":"3354 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.2372222222222,48.622777777778 ]
+    },
+    "properties": {
+    "city":"Aichtal",
+    "gruendungsjahr":1975,
+    "einwohnerzahl":"10.045 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.924166666667,50.832222222222 ]
+    },
+    "properties": {
+    "city":"Chemnitz",
+    "gruendungsjahr":1143,
+    "einwohnerzahl":"246.855 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6,49.133333333333 ]
+    },
+    "properties": {
+    "city":"Bruchsal",
+    "gruendungsjahr":976,
+    "einwohnerzahl":"44.532 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.3166666666667,52.522222222222 ]
+    },
+    "properties": {
+    "city":"Lingen (Ems)",
+    "gruendungsjahr":975,
+    "einwohnerzahl":"54.117 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.433333333333,50.985 ]
+    },
+    "properties": {
+    "city":"Altenburg",
+    "gruendungsjahr":976,
+    "einwohnerzahl":"32.374 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.01763,50.826758 ]
+    },
+    "properties": {
+    "city":"Stadtallendorf",
+    "gruendungsjahr":1231,
+    "einwohnerzahl":"21.348 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.445630555556,50.824941666667 ]
+    },
+    "properties": {
+    "city":"Brotterode-Trusetal",
+    "gruendungsjahr":2011,
+    "einwohnerzahl":"6090 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.9,50.7 ]
+    },
+    "properties": {
+    "city":"Auma-Weidatal",
+    "gruendungsjahr":2011,
+    "einwohnerzahl":"3557 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.726111111111,52.565277777778 ]
+    },
+    "properties": {
+    "city":"Altlandsberg",
+    "gruendungsjahr":1230,
+    "einwohnerzahl":"9371 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.2858333333333,48.536666666667 ]
+    },
+    "properties": {
+    "city":"Metzingen",
+    "gruendungsjahr":1075,
+    "einwohnerzahl":"21.845 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.1555555555556,50.816111111111 ]
+    },
+    "properties": {
+    "city":"Troisdorf",
+    "gruendungsjahr":1075,
+    "einwohnerzahl":"74.870 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.3925,51.515833333333 ]
+    },
+    "properties": {
+    "city":"Bad Liebenwerda",
+    "gruendungsjahr":1231,
+    "einwohnerzahl":"9282 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.043888888889,53.905 ]
+    },
+    "properties": {
+    "city":"Demmin",
+    "gruendungsjahr":1075,
+    "einwohnerzahl":"10.865 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.9394444444444,51.171388888889 ]
+    },
+    "properties": {
+    "city":"Hilden",
+    "gruendungsjahr":1074,
+    "einwohnerzahl":"55.817 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.7425,50.278888888889 ]
+    },
+    "properties": {
+    "city":"Schauenstein",
+    "gruendungsjahr":1230,
+    "einwohnerzahl":"1918 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.506666666667,50.031944444444 ]
+    },
+    "properties": {
+    "city":"Haßfurt",
+    "gruendungsjahr":1230,
+    "einwohnerzahl":"13.493 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.7313888888889,47.881388888889 ]
+    },
+    "properties": {
+    "city":"Staufen im Breisgau",
+    "gruendungsjahr":777,
+    "einwohnerzahl":"8243 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.7572222222222,51.719444444444 ]
+    },
+    "properties": {
+    "city":"Paderborn",
+    "gruendungsjahr":777,
+    "einwohnerzahl":"149.075 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.3275,50.716944444444 ]
+    },
+    "properties": {
+    "city":"Rudolstadt",
+    "gruendungsjahr":776,
+    "einwohnerzahl":"25.458 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.811111111111,50.259166666667 ]
+    },
+    "properties": {
+    "city":"Ummerstadt",
+    "gruendungsjahr":837,
+    "einwohnerzahl":"462 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.387222222222,51.404166666667 ]
+    },
+    "properties": {
+    "city":"Allstedt",
+    "gruendungsjahr":777,
+    "einwohnerzahl":"7756 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.3108333333333,48.740555555556 ]
+    },
+    "properties": {
+    "city":"Esslingen am Neckar",
+    "gruendungsjahr":777,
+    "einwohnerzahl":"93.004 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.9,51.116666666667 ]
+    },
+    "properties": {
+    "city":"Attendorn",
+    "gruendungsjahr":1072,
+    "einwohnerzahl":"24.335 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.435,51.493333333333 ]
+    },
+    "properties": {
+    "city":"Rüthen",
+    "gruendungsjahr":833,
+    "einwohnerzahl":"10.905 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.3497222222222,51.616666666667 ]
+    },
+    "properties": {
+    "city":"Erwitte",
+    "gruendungsjahr":833,
+    "einwohnerzahl":"16.023 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.1091666666667,51.571111111111 ]
+    },
+    "properties": {
+    "city":"Soest",
+    "gruendungsjahr":833,
+    "einwohnerzahl":"47.376 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.5086111111111,51.639722222222 ]
+    },
+    "properties": {
+    "city":"Geseke",
+    "gruendungsjahr":833,
+    "einwohnerzahl":"21.183 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.0198611111111,50.008541666667 ]
+    },
+    "properties": {
+    "city":"Oestrich-Winkel",
+    "gruendungsjahr":1972,
+    "einwohnerzahl":"11.838 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1916666666667,48.934722222222 ]
+    },
+    "properties": {
+    "city":"Freiberg am Neckar",
+    "gruendungsjahr":1972,
+    "einwohnerzahl":"16.024 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6803472222222,49.989305555556 ]
+    },
+    "properties": {
+    "city":"Langen (Hessen)",
+    "gruendungsjahr":834,
+    "einwohnerzahl":"37.527 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.7402777777778,49.133888888889 ]
+    },
+    "properties": {
+    "city":"Kraichtal",
+    "gruendungsjahr":1971,
+    "einwohnerzahl":"14.682 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.354166666667,50.814444444444 ]
+    },
+    "properties": {
+    "city":"Bad Liebenstein",
+    "gruendungsjahr":1137,
+    "einwohnerzahl":"3.971",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.7722222222222,50.8075 ]
+    },
+    "properties": {
+    "city":"Marburg",
+    "gruendungsjahr":1138,
+    "einwohnerzahl":"76.226 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.656388888889,51.246944444444 ]
+    },
+    "properties": {
+    "city":"Schlotheim",
+    "gruendungsjahr":974,
+    "einwohnerzahl":"3618 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.4419444444444,51.191111111111 ]
+    },
+    "properties": {
+    "city":"Mönchengladbach",
+    "gruendungsjahr":974,
+    "einwohnerzahl":"262.188 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.299166666667,51.042777777778 ]
+    },
+    "properties": {
+    "city":"Meuselwitz",
+    "gruendungsjahr":1139,
+    "einwohnerzahl":"10.118 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.134458333333,51.377380555556 ]
+    },
+    "properties": {
+    "city":"Heilbad Heiligenstadt",
+    "gruendungsjahr":973,
+    "einwohnerzahl":"17.209 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.0127777777778,51.102777777778 ]
+    },
+    "properties": {
+    "city":"Leichlingen (Rheinland)",
+    "gruendungsjahr":973,
+    "einwohnerzahl":"28.166 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.244722222222,51.051388888889 ]
+    },
+    "properties": {
+    "city":"Creuzburg",
+    "gruendungsjahr":973,
+    "einwohnerzahl":"2338 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.845,53.945555555556 ]
+    },
+    "properties": {
+    "city":"Lassan",
+    "gruendungsjahr":1136,
+    "einwohnerzahl":"1532 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.406388888889,51.803611111111 ]
+    },
+    "properties": {
+    "city":"Oranienbaum-Wörlitz",
+    "gruendungsjahr":2011,
+    "einwohnerzahl":"8384 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.004166666667,51.558333333333 ]
+    },
+    "properties": {
+    "city":"Torgau",
+    "gruendungsjahr":973,
+    "einwohnerzahl":"20.088 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.35,48.15 ]
+    },
+    "properties": {
+    "city":"Puchheim",
+    "gruendungsjahr":2011,
+    "einwohnerzahl":"21.396 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.657777777778,54.110277777778 ]
+    },
+    "properties": {
+    "city":"Bad Sülze",
+    "gruendungsjahr":1229,
+    "einwohnerzahl":"1743 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.335833333333,51.411666666667 ]
+    },
+    "properties": {
+    "city":"Leinefelde-Worbis",
+    "gruendungsjahr":1227,
+    "einwohnerzahl":"20.218 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6327777777778,52.377222222222 ]
+    },
+    "properties": {
+    "city":"Espelkamp",
+    "gruendungsjahr":1229,
+    "einwohnerzahl":"24.809 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.2669444444444,50.750555555556 ]
+    },
+    "properties": {
+    "city":"Alsfeld",
+    "gruendungsjahr":1069,
+    "einwohnerzahl":"15.997 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.666666666667,51.2 ]
+    },
+    "properties": {
+    "city":"Weißenberg",
+    "gruendungsjahr":1228,
+    "einwohnerzahl":"3157 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.4305555555556,48.946388888889 ]
+    },
+    "properties": {
+    "city":"Backnang",
+    "gruendungsjahr":1067,
+    "einwohnerzahl":"36.893 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.987222222222,51.152777777778 ]
+    },
+    "properties": {
+    "city":"Görlitz",
+    "gruendungsjahr":1071,
+    "einwohnerzahl":"56.391 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.167222222222,50.861666666667 ]
+    },
+    "properties": {
+    "city":"Oederan",
+    "gruendungsjahr":1227,
+    "einwohnerzahl":"8027 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.356388888889,50.895 ]
+    },
+    "properties": {
+    "city":"Schmölln",
+    "gruendungsjahr":1066,
+    "einwohnerzahl":"13.761 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.26672,51.4448 ]
+    },
+    "properties": {
+    "city":"Straelen",
+    "gruendungsjahr":1075,
+    "einwohnerzahl":"16.020 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.961111111111,49.2425 ]
+    },
+    "properties": {
+    "city":"Abenberg",
+    "gruendungsjahr":1071,
+    "einwohnerzahl":"5502 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.3233333333333,49.521666666667 ]
+    },
+    "properties": {
+    "city":"Buchen (Odenwald)",
+    "gruendungsjahr":773,
+    "einwohnerzahl":"17.851 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1094444444444,48.290277777778 ]
+    },
+    "properties": {
+    "city":"Burladingen",
+    "gruendungsjahr":772,
+    "einwohnerzahl":"12.239 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.05,50.45 ]
+    },
+    "properties": {
+    "city":"Hadamar",
+    "gruendungsjahr":832,
+    "einwohnerzahl":"12.466 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.0575,48.406388888889 ]
+    },
+    "properties": {
+    "city":"Mössingen",
+    "gruendungsjahr":774,
+    "einwohnerzahl":"20.416 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.837222222222,51.153888888889 ]
+    },
+    "properties": {
+    "city":"Bad Tennstedt",
+    "gruendungsjahr":772,
+    "einwohnerzahl":"2487 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.999166666667,51.354722222222 ]
+    },
+    "properties": {
+    "city":"Merseburg",
+    "gruendungsjahr":830,
+    "einwohnerzahl":"34.197 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1466666666667,49.352222222222 ]
+    },
+    "properties": {
+    "city":"Mosbach",
+    "gruendungsjahr":765,
+    "einwohnerzahl":"23.288 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.1605555555556,50.143472222222 ]
+    },
+    "properties": {
+    "city":"Taunusstein",
+    "gruendungsjahr":1971,
+    "einwohnerzahl":"29.746 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.2458333333333,51.327777777778 ]
+    },
+    "properties": {
+    "city":"Nettetal",
+    "gruendungsjahr":1970,
+    "einwohnerzahl":"42.265 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.252222222222,50.141111111111 ]
+    },
+    "properties": {
+    "city":"Burgkunstadt",
+    "gruendungsjahr":830,
+    "einwohnerzahl":"6467 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.2130555555556,50.899166666667 ]
+    },
+    "properties": {
+    "city":"Schwalmstadt",
+    "gruendungsjahr":1970,
+    "einwohnerzahl":"18.119 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.070555555556,49.134722222222 ]
+    },
+    "properties": {
+    "city":"Crailsheim",
+    "gruendungsjahr":1136,
+    "einwohnerzahl":"34.130 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.093611111111,48.837222222222 ]
+    },
+    "properties": {
+    "city":"Aalen",
+    "gruendungsjahr":1136,
+    "einwohnerzahl":"67.849 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.819722222222,51.040833333333 ]
+    },
+    "properties": {
+    "city":"Schkölen",
+    "gruendungsjahr":1135,
+    "einwohnerzahl":"2575 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.035,50.303333333333 ]
+    },
+    "properties": {
+    "city":"Rödental",
+    "gruendungsjahr":1971,
+    "einwohnerzahl":"13.174 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.758244,54.09434 ]
+    },
+    "properties": {
+    "city":"Tribsees",
+    "gruendungsjahr":1136,
+    "einwohnerzahl":"2647 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.5680555555556,51.395277777778 ]
+    },
+    "properties": {
+    "city":"Brilon",
+    "gruendungsjahr":973,
+    "einwohnerzahl":"25.501 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.138333333333,51.047777777778 ]
+    },
+    "properties": {
+    "city":"Zeitz",
+    "gruendungsjahr":967,
+    "einwohnerzahl":"28.381 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.6555555555556,52.319444444444 ]
+    },
+    "properties": {
+    "city":"Ronnenberg",
+    "gruendungsjahr":968,
+    "einwohnerzahl":"24.080 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.993333,53.550556 ]
+    },
+    "properties": {
+    "city":"Hamburg",
+    "gruendungsjahr":832,
+    "einwohnerzahl":"1.830.584",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.666666666667,51.7 ]
+    },
+    "properties": {
+    "city":"Alsleben (Saale)",
+    "gruendungsjahr":973,
+    "einwohnerzahl":"2587 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.066666666667,51.666666666667 ]
+    },
+    "properties": {
+    "city":"Südliches Anhalt",
+    "gruendungsjahr":2010,
+    "einwohnerzahl":"13.490 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.335555555556,48.208611111111 ]
+    },
+    "properties": {
+    "city":"Olching",
+    "gruendungsjahr":2011,
+    "einwohnerzahl":"27.592 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.5558333333333,50.155833333333 ]
+    },
+    "properties": {
+    "city":"Emmelshausen",
+    "gruendungsjahr":2010,
+    "einwohnerzahl":"4871 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.095277777778,51.27 ]
+    },
+    "properties": {
+    "city":"Kamenz",
+    "gruendungsjahr":1225,
+    "einwohnerzahl":"14.750 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.456111111111,51.208611111111 ]
+    },
+    "properties": {
+    "city":"Mühlhausen/Thüringen",
+    "gruendungsjahr":967,
+    "einwohnerzahl":"36.195 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.62325,51.087680555556 ]
+    },
+    "properties": {
+    "city":"Bad Sulza",
+    "gruendungsjahr":1064,
+    "einwohnerzahl":"4819 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.179722222222,51.1275 ]
+    },
+    "properties": {
+    "city":"Bischofswerda",
+    "gruendungsjahr":1227,
+    "einwohnerzahl":"11.083 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.8486111111111,49.253333333333 ]
+    },
+    "properties": {
+    "city":"Langenburg",
+    "gruendungsjahr":1226,
+    "einwohnerzahl":"1834 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.013055555556,51.181666666667 ]
+    },
+    "properties": {
+    "city":"Pulsnitz",
+    "gruendungsjahr":1225,
+    "einwohnerzahl":"7480 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.966666666667,50.266666666667 ]
+    },
+    "properties": {
+    "city":"Coburg",
+    "gruendungsjahr":1056,
+    "einwohnerzahl":"41.236 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.7505555555556,52.0875 ]
+    },
+    "properties": {
+    "city":"Bad Salzuflen",
+    "gruendungsjahr":1050,
+    "einwohnerzahl":"53.856 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.788888888889,50.192222222222 ]
+    },
+    "properties": {
+    "city":"Münchberg",
+    "gruendungsjahr":1224,
+    "einwohnerzahl":"10.274 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.078611111111,49.455555555556 ]
+    },
+    "properties": {
+    "city":"Nürnberg",
+    "gruendungsjahr":1050,
+    "einwohnerzahl":"515.201 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.7731527777778,49.490197222222 ]
+    },
+    "properties": {
+    "city":"Bad Mergentheim",
+    "gruendungsjahr":1058,
+    "einwohnerzahl":"23.502 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.5666666666667,49.383333333333 ]
+    },
+    "properties": {
+    "city":"Schwetzingen",
+    "gruendungsjahr":766,
+    "einwohnerzahl":"21.546 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1583333333333,47.766666666667 ]
+    },
+    "properties": {
+    "city":"Überlingen",
+    "gruendungsjahr":770,
+    "einwohnerzahl":"22.636 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.754166666667,49.114722222222 ]
+    },
+    "properties": {
+    "city":"Gunzenhausen",
+    "gruendungsjahr":823,
+    "einwohnerzahl":"16.562 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.2630555555556,50.820833333333 ]
+    },
+    "properties": {
+    "city":"Eschweiler",
+    "gruendungsjahr":828,
+    "einwohnerzahl":"56.207 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.8533333333333,49.253333333333 ]
+    },
+    "properties": {
+    "city":"Völklingen",
+    "gruendungsjahr":822,
+    "einwohnerzahl":"39.376 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.5386111111111,48.615 ]
+    },
+    "properties": {
+    "city":"Weilheim an der Teck",
+    "gruendungsjahr":769,
+    "einwohnerzahl":"10.305 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.5002777777778,48.0175 ]
+    },
+    "properties": {
+    "city":"Bad Saulgau",
+    "gruendungsjahr":819,
+    "einwohnerzahl":"17.476 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.6777777777778,51.260833333333 ]
+    },
+    "properties": {
+    "city":"Meerbusch",
+    "gruendungsjahr":1970,
+    "einwohnerzahl":"55.548 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.9836111111111,53.695555555556 ]
+    },
+    "properties": {
+    "city":"Norderstedt",
+    "gruendungsjahr":1970,
+    "einwohnerzahl":"78.679 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6883333333333,52.189722222222 ]
+    },
+    "properties": {
+    "city":"Löhne",
+    "gruendungsjahr":1969,
+    "einwohnerzahl":"39.867 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.0680555555556,51.123611111111 ]
+    },
+    "properties": {
+    "city":"Lennestadt",
+    "gruendungsjahr":1969,
+    "einwohnerzahl":"25.638 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.778611111111,50.341111111111 ]
+    },
+    "properties": {
+    "city":"Bad Rodach",
+    "gruendungsjahr":1135,
+    "einwohnerzahl":"6367 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1413888888889,48.906388888889 ]
+    },
+    "properties": {
+    "city":"Asperg",
+    "gruendungsjahr":819,
+    "einwohnerzahl":"13.529 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.6455555555556,50.687222222222 ]
+    },
+    "properties": {
+    "city":"Altenkirchen (Westerwald)",
+    "gruendungsjahr":1131,
+    "einwohnerzahl":"6313 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.6044444444444,50.303888888889 ]
+    },
+    "properties": {
+    "city":"Lahnstein",
+    "gruendungsjahr":1969,
+    "einwohnerzahl":"17.939 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.7827777777778,51.225555555556 ]
+    },
+    "properties": {
+    "city":"Düsseldorf",
+    "gruendungsjahr":1135,
+    "einwohnerzahl":"617.280 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.9880555555556,50.961666666667 ]
+    },
+    "properties": {
+    "city":"Kreuztal",
+    "gruendungsjahr":1969,
+    "einwohnerzahl":"31.017 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.3986111111111,51.116944444444 ]
+    },
+    "properties": {
+    "city":"Wipperfürth",
+    "gruendungsjahr":1131,
+    "einwohnerzahl":"21.202 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.571388888889,51.439444444444 ]
+    },
+    "properties": {
+    "city":"Bleicherode",
+    "gruendungsjahr":1130,
+    "einwohnerzahl":"6134 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.233611111111,52.320277777778 ]
+    },
+    "properties": {
+    "city":"Peine",
+    "gruendungsjahr":1130,
+    "einwohnerzahl":"49.901 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.3155555555556,51.08 ]
+    },
+    "properties": {
+    "city":"Erkelenz",
+    "gruendungsjahr":966,
+    "einwohnerzahl":"43.392 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.0833333333333,51.171388888889 ]
+    },
+    "properties": {
+    "city":"Solingen",
+    "gruendungsjahr":965,
+    "einwohnerzahl":"158.803 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.733333333333,51.366666666667 ]
+    },
+    "properties": {
+    "city":"Wurzen",
+    "gruendungsjahr":961,
+    "einwohnerzahl":"16.220 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.7425,51.793611111111 ]
+    },
+    "properties": {
+    "city":"Bernburg (Saale)",
+    "gruendungsjahr":961,
+    "einwohnerzahl":"32.876 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.635833333333,51.460833333333 ]
+    },
+    "properties": {
+    "city":"Eilenburg",
+    "gruendungsjahr":961,
+    "einwohnerzahl":"15.607 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.266666666667,51.716666666667 ]
+    },
+    "properties": {
+    "city":"Raguhn-Jeßnitz",
+    "gruendungsjahr":2010,
+    "einwohnerzahl":"9083 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.816666666667,51.716666666667 ]
+    },
+    "properties": {
+    "city":"Oberharz am Brocken",
+    "gruendungsjahr":2010,
+    "einwohnerzahl":"10.563 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.5502777777778,49.609166666667 ]
+    },
+    "properties": {
+    "city":"Saarburg",
+    "gruendungsjahr":964,
+    "einwohnerzahl":"7377 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.9666666666667,50.966666666667 ]
+    },
+    "properties": {
+    "city":"Gemünden (Wohra)",
+    "gruendungsjahr":1223,
+    "einwohnerzahl":"3816 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.4,51.1 ]
+    },
+    "properties": {
+    "city":"Wilthen",
+    "gruendungsjahr":1222,
+    "einwohnerzahl":"4977 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.73783,52.02045 ]
+    },
+    "properties": {
+    "city":"Schönebeck (Elbe)",
+    "gruendungsjahr":1223,
+    "einwohnerzahl":"31.038 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.2169444444444,51.4825 ]
+    },
+    "properties": {
+    "city":"Bochum",
+    "gruendungsjahr":1041,
+    "einwohnerzahl":"365.529 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.8088888888889,48.571111111111 ]
+    },
+    "properties": {
+    "city":"Kehl",
+    "gruendungsjahr":1038,
+    "einwohnerzahl":"35.695 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.511111111111,51.645 ]
+    },
+    "properties": {
+    "city":"Hettstedt",
+    "gruendungsjahr":1046,
+    "einwohnerzahl":"14.265 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.564444444444,50.858055555556 ]
+    },
+    "properties": {
+    "city":"Friedrichroda",
+    "gruendungsjahr":1044,
+    "einwohnerzahl":"7405 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.010555555556,50.582777777778 ]
+    },
+    "properties": {
+    "city":"Großbreitenbach",
+    "gruendungsjahr":1399,
+    "einwohnerzahl":"2582 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.5166666666667,51.883055555556 ]
+    },
+    "properties": {
+    "city":"Verl",
+    "gruendungsjahr":2010,
+    "einwohnerzahl":"25.356 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.3352777777778,48.626666666667 ]
+    },
+    "properties": {
+    "city":"Nürtingen",
+    "gruendungsjahr":1046,
+    "einwohnerzahl":"41.017 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6227777777778,49.681111111111 ]
+    },
+    "properties": {
+    "city":"Bensheim",
+    "gruendungsjahr":765,
+    "einwohnerzahl":"40.326 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.1636111111111,49.404166666667 ]
+    },
+    "properties": {
+    "city":"Ottweiler",
+    "gruendungsjahr":1393,
+    "einwohnerzahl":"14.500 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6649727822222,51.959394133889 ]
+    },
+    "properties": {
+    "city":"Oerlinghausen",
+    "gruendungsjahr":1036,
+    "einwohnerzahl":"17.530 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.0166666666667,49.95 ]
+    },
+    "properties": {
+    "city":"Gau-Algesheim",
+    "gruendungsjahr":766,
+    "einwohnerzahl":"6840 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.8669444444444,49.846944444444 ]
+    },
+    "properties": {
+    "city":"Bad Kreuznach",
+    "gruendungsjahr":819,
+    "einwohnerzahl":"50.484 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.949722222222,52.95 ]
+    },
+    "properties": {
+    "city":"Bad Wilsnack",
+    "gruendungsjahr":1384,
+    "einwohnerzahl":"2576 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.021388888889,50.828888888889 ]
+    },
+    "properties": {
+    "city":"Vacha",
+    "gruendungsjahr":817,
+    "einwohnerzahl":"5218 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.3916666666667,47.720833333333 ]
+    },
+    "properties": {
+    "city":"Markdorf",
+    "gruendungsjahr":817,
+    "einwohnerzahl":"13.847 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.083333333333,53.683333333333 ]
+    },
+    "properties": {
+    "city":"Eggesin",
+    "gruendungsjahr":1966,
+    "einwohnerzahl":"4745 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.4916666666667,48.056944444444 ]
+    },
+    "properties": {
+    "city":"Villingen-Schwenningen",
+    "gruendungsjahr":817,
+    "einwohnerzahl":"84.557 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.683888888889,53.866111111111 ]
+    },
+    "properties": {
+    "city":"Lübeck",
+    "gruendungsjahr":819,
+    "einwohnerzahl":"216.318 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.6333333333333,51.616666666667 ]
+    },
+    "properties": {
+    "city":"Bergkamen",
+    "gruendungsjahr":1966,
+    "einwohnerzahl":"48.829 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.066666666667,47.85 ]
+    },
+    "properties": {
+    "city":"Kolbermoor",
+    "gruendungsjahr":1963,
+    "einwohnerzahl":"18.483 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.631111111111,52.145555555556 ]
+    },
+    "properties": {
+    "city":"Eisenhüttenstadt",
+    "gruendungsjahr":1961,
+    "einwohnerzahl":"25.057 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.9444444444444,52.554166666667 ]
+    },
+    "properties": {
+    "city":"Bersenbrück",
+    "gruendungsjahr":1956,
+    "einwohnerzahl":"8454 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.411826,53.936277 ]
+    },
+    "properties": {
+    "city":"Gützkow",
+    "gruendungsjahr":1128,
+    "einwohnerzahl":"3021 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.0836111111111,50.776666666667 ]
+    },
+    "properties": {
+    "city":"Aachen",
+    "gruendungsjahr":765,
+    "einwohnerzahl":"246.272 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.766666666667,54.05 ]
+    },
+    "properties": {
+    "city":"Wolgast",
+    "gruendungsjahr":1127,
+    "einwohnerzahl":"12.084 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.473333333333,50.2675 ]
+    },
+    "properties": {
+    "city":"Wallenfels",
+    "gruendungsjahr":1126,
+    "einwohnerzahl":"2739 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1477472222222,49.976702777778 ]
+    },
+    "properties": {
+    "city":"Aschaffenburg",
+    "gruendungsjahr":957,
+    "einwohnerzahl":"69.928 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.872222222222,51.370833333333 ]
+    },
+    "properties": {
+    "city":"Sondershausen",
+    "gruendungsjahr":1125,
+    "einwohnerzahl":"21.768 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.1158333333333,49.838333333333 ]
+    },
+    "properties": {
+    "city":"Wörrstadt",
+    "gruendungsjahr":2009,
+    "einwohnerzahl":"8005 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.010555555556,52.228055555556 ]
+    },
+    "properties": {
+    "city":"Helmstedt",
+    "gruendungsjahr":952,
+    "einwohnerzahl":"25.803 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.24,51.619722222222 ]
+    },
+    "properties": {
+    "city":"Sandersdorf-Brehna",
+    "gruendungsjahr":2009,
+    "einwohnerzahl":"14.468 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.7625,51.502222222222 ]
+    },
+    "properties": {
+    "city":"Dransfeld",
+    "gruendungsjahr":960,
+    "einwohnerzahl":"4344 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.176388888889,53.793888888889 ]
+    },
+    "properties": {
+    "city":"Güstrow",
+    "gruendungsjahr":1222,
+    "einwohnerzahl":"29.429 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.673339,50.008095 ]
+    },
+    "properties": {
+    "city":"Rheinböllen",
+    "gruendungsjahr":2009,
+    "einwohnerzahl":"4107 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.7,50.491666666667 ]
+    },
+    "properties": {
+    "city":"Saalburg-Ebersdorf",
+    "gruendungsjahr":1222,
+    "einwohnerzahl":"3442 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.4511111111111,48.648333333333 ]
+    },
+    "properties": {
+    "city":"Kirchheim unter Teck",
+    "gruendungsjahr":960,
+    "einwohnerzahl":"40.446 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.105277777778,48.222777777778 ]
+    },
+    "properties": {
+    "city":"Illertissen",
+    "gruendungsjahr":954,
+    "einwohnerzahl":"17.266 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.848333333333,49.444444444444 ]
+    },
+    "properties": {
+    "city":"Amberg",
+    "gruendungsjahr":1034,
+    "einwohnerzahl":"42.248 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.3875,50.485833333333 ]
+    },
+    "properties": {
+    "city":"Ludwigsstadt",
+    "gruendungsjahr":1222,
+    "einwohnerzahl":"3423 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.181111111111,47.987777777778 ]
+    },
+    "properties": {
+    "city":"Memmingen",
+    "gruendungsjahr":1128,
+    "einwohnerzahl":"43.470 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.0066666666667,52.075555555556 ]
+    },
+    "properties": {
+    "city":"Ahaus",
+    "gruendungsjahr":1030,
+    "einwohnerzahl":"39.185 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.521111111111,52.269166666667 ]
+    },
+    "properties": {
+    "city":"Braunschweig",
+    "gruendungsjahr":1031,
+    "einwohnerzahl":"248.023 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.86,52.605277777778 ]
+    },
+    "properties": {
+    "city":"Stendal",
+    "gruendungsjahr":1022,
+    "einwohnerzahl":"39.822 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.8438888888889,51.029444444444 ]
+    },
+    "properties": {
+    "city":"Olpe",
+    "gruendungsjahr":1220,
+    "einwohnerzahl":"24.459 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.290833333333,49.936944444444 ]
+    },
+    "properties": {
+    "city":"Hollfeld",
+    "gruendungsjahr":1017,
+    "einwohnerzahl":"5027 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.455555555556,50.108055555556 ]
+    },
+    "properties": {
+    "city":"Kulmbach",
+    "gruendungsjahr":1028,
+    "einwohnerzahl":"26.002 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.816666666667,50.916666666667 ]
+    },
+    "properties": {
+    "city":"Burgstädt",
+    "gruendungsjahr":1378,
+    "einwohnerzahl":"10.684 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.568055555556,50.663888888889 ]
+    },
+    "properties": {
+    "city":"Ranis",
+    "gruendungsjahr":1381,
+    "einwohnerzahl":"1699 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.924166666667,50.623611111111 ]
+    },
+    "properties": {
+    "city":"Geyer",
+    "gruendungsjahr":1381,
+    "einwohnerzahl":"3518 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6697222222222,49.556111111111 ]
+    },
+    "properties": {
+    "city":"Weinheim",
+    "gruendungsjahr":755,
+    "einwohnerzahl":"45.114 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.3507638888889,50.010833333333 ]
+    },
+    "properties": {
+    "city":"Hochheim am Main",
+    "gruendungsjahr":754,
+    "einwohnerzahl":"17.620 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.455555555556,51.755555555556 ]
+    },
+    "properties": {
+    "city":"Aschersleben",
+    "gruendungsjahr":753,
+    "einwohnerzahl":"27.712 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.4780555555556,48.275277777778 ]
+    },
+    "properties": {
+    "city":"Hayingen",
+    "gruendungsjahr":756,
+    "einwohnerzahl":"2200 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.121666666667,52.921944444444 ]
+    },
+    "properties": {
+    "city":"Wustrow (Wendland)",
+    "gruendungsjahr":1377,
+    "einwohnerzahl":"2792 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.161111111111,49.736944444444 ]
+    },
+    "properties": {
+    "city":"Kitzingen",
+    "gruendungsjahr":748,
+    "einwohnerzahl":"21.346 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.9497222222222,50.714166666667 ]
+    },
+    "properties": {
+    "city":"Geisa",
+    "gruendungsjahr":817,
+    "einwohnerzahl":"4733 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.571666666667,49.300833333333 ]
+    },
+    "properties": {
+    "city":"Ansbach",
+    "gruendungsjahr":748,
+    "einwohnerzahl":"41.652 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.583611111111,51.850833333333 ]
+    },
+    "properties": {
+    "city":"Staßfurt",
+    "gruendungsjahr":806,
+    "einwohnerzahl":"25.830 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.95,52.15 ]
+    },
+    "properties": {
+    "city":"Hildesheim",
+    "gruendungsjahr":815,
+    "einwohnerzahl":"101.744 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.424444444444,48.765555555556 ]
+    },
+    "properties": {
+    "city":"Ingolstadt",
+    "gruendungsjahr":806,
+    "einwohnerzahl":"135.244 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.97,51.482777777778 ]
+    },
+    "properties": {
+    "city":"Halle (Saale)",
+    "gruendungsjahr":806,
+    "einwohnerzahl":"239.173 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.5925,47.961944444444 ]
+    },
+    "properties": {
+    "city":"Traunreut",
+    "gruendungsjahr":46,
+    "einwohnerzahl":"20.934 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.4,48.216666666667 ]
+    },
+    "properties": {
+    "city":"Waldkraiburg",
+    "gruendungsjahr":46,
+    "einwohnerzahl":"23.435 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.8341666666667,47.685833333333 ]
+    },
+    "properties": {
+    "city":"Wangen im Allgäu",
+    "gruendungsjahr":815,
+    "einwohnerzahl":"27.109 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.482222222222,47.856111111111 ]
+    },
+    "properties": {
+    "city":"Geretsried",
+    "gruendungsjahr":46,
+    "einwohnerzahl":"24.892 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.010555555556,53.629444444444 ]
+    },
+    "properties": {
+    "city":"Torgelow",
+    "gruendungsjahr":1945,
+    "einwohnerzahl":"9250 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.209444444444,53.954166666667 ]
+    },
+    "properties": {
+    "city":"Wahlstedt",
+    "gruendungsjahr":46,
+    "einwohnerzahl":"9490 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.3816666666667,48.674722222222 ]
+    },
+    "properties": {
+    "city":"Wendlingen am Neckar",
+    "gruendungsjahr":1940,
+    "einwohnerzahl":"16.247 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.195277777778,48.993611111111 ]
+    },
+    "properties": {
+    "city":"Neutraubling",
+    "gruendungsjahr":46,
+    "einwohnerzahl":"13.655 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.9344444444444,48.477222222222 ]
+    },
+    "properties": {
+    "city":"Rottenburg am Neckar",
+    "gruendungsjahr":98,
+    "einwohnerzahl":"43.615 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.4525,50.137986111111 ]
+    },
+    "properties": {
+    "city":"Kelkheim (Taunus)",
+    "gruendungsjahr":1938,
+    "einwohnerzahl":"28.829 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6988888888889,48.891111111111 ]
+    },
+    "properties": {
+    "city":"Pforzheim",
+    "gruendungsjahr":90,
+    "einwohnerzahl":"124.289 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.4222222222222,48.688611111111 ]
+    },
+    "properties": {
+    "city":"Wernau (Neckar)",
+    "gruendungsjahr":1938,
+    "einwohnerzahl":"12.388 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.154444444444,48.676111111111 ]
+    },
+    "properties": {
+    "city":"Heidenheim an der Brenz",
+    "gruendungsjahr":85,
+    "einwohnerzahl":"49.297 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.391111111111,53.210277777778 ]
+    },
+    "properties": {
+    "city":"Gartz (Oder)",
+    "gruendungsjahr":1124,
+    "einwohnerzahl":"2550 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.0722222222222,50.086944444444 ]
+    },
+    "properties": {
+    "city":"Alzenau",
+    "gruendungsjahr":950,
+    "einwohnerzahl":"18.491 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.074444444444,52.825 ]
+    },
+    "properties": {
+    "city":"Havelberg",
+    "gruendungsjahr":948,
+    "einwohnerzahl":"6567 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.2261111111111,48.465555555556 ]
+    },
+    "properties": {
+    "city":"Pfullingen",
+    "gruendungsjahr":937,
+    "einwohnerzahl":"18.471 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.775833333333,51.903333333333 ]
+    },
+    "properties": {
+    "city":"Calbe (Saale)",
+    "gruendungsjahr":936,
+    "einwohnerzahl":"8708 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.096944444444,49.017222222222 ]
+    },
+    "properties": {
+    "city":"Regensburg",
+    "gruendungsjahr":179,
+    "einwohnerzahl":"150.894 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.5785,48.9796 ]
+    },
+    "properties": {
+    "city":"Murrhardt",
+    "gruendungsjahr":159,
+    "einwohnerzahl":"14.006 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.4261111111111,49.430833333333 ]
+    },
+    "properties": {
+    "city":"Osterburken",
+    "gruendungsjahr":159,
+    "einwohnerzahl":"6520 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.485555555556,53.163611111111 ]
+    },
+    "properties": {
+    "city":"Wittstock/Dosse",
+    "gruendungsjahr":946,
+    "einwohnerzahl":"14.283 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.5,49.2 ]
+    },
+    "properties": {
+    "city":"Öhringen",
+    "gruendungsjahr":159,
+    "einwohnerzahl":"24.010 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.236111111111,54.285277777778 ]
+    },
+    "properties": {
+    "city":"Schwentinental",
+    "gruendungsjahr":2008,
+    "einwohnerzahl":"13.724 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.6344444444444,48.874722222222 ]
+    },
+    "properties": {
+    "city":"Welzheim",
+    "gruendungsjahr":159,
+    "einwohnerzahl":"11.133 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.3680555555556,49.583055555556 ]
+    },
+    "properties": {
+    "city":"Walldürn",
+    "gruendungsjahr":159,
+    "einwohnerzahl":"11.528 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.915,50.883611111111 ]
+    },
+    "properties": {
+    "city":"Rauschenberg",
+    "gruendungsjahr":1219,
+    "einwohnerzahl":"4419 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.945,48.809722222222 ]
+    },
+    "properties": {
+    "city":"Rutesheim",
+    "gruendungsjahr":2008,
+    "einwohnerzahl":"10.924 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.85,48.366666666667 ]
+    },
+    "properties": {
+    "city":"Stadtbergen",
+    "gruendungsjahr":2007,
+    "einwohnerzahl":"14.965 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.07,50.939444444444 ]
+    },
+    "properties": {
+    "city":"Berka/Werra",
+    "gruendungsjahr":1016,
+    "einwohnerzahl":"4231 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.81,51.1525 ]
+    },
+    "properties": {
+    "city":"Naumburg (Saale)",
+    "gruendungsjahr":1012,
+    "einwohnerzahl":"32.755 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.05,51.85 ]
+    },
+    "properties": {
+    "city":"Aken (Elbe)",
+    "gruendungsjahr":1219,
+    "einwohnerzahl":"7687 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.37475,51.340333333333 ]
+    },
+    "properties": {
+    "city":"Leipzig",
+    "gruendungsjahr":1015,
+    "einwohnerzahl":"581.980 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.916666666667,51.116666666667 ]
+    },
+    "properties": {
+    "city":"Radeberg",
+    "gruendungsjahr":1219,
+    "einwohnerzahl":"18.451 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.203611111111,52.637777777778 ]
+    },
+    "properties": {
+    "city":"Hennigsdorf",
+    "gruendungsjahr":1375,
+    "einwohnerzahl":"26.369 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.766666666667,52.2 ]
+    },
+    "properties": {
+    "city":"Brück",
+    "gruendungsjahr":1374,
+    "einwohnerzahl":"4006 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.95,50.858333333333 ]
+    },
+    "properties": {
+    "city":"Bad Gottleuba-Berggießhübel",
+    "gruendungsjahr":1363,
+    "einwohnerzahl":"5643 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.2927777777778,52.693611111111 ]
+    },
+    "properties": {
+    "city":"Meppen",
+    "gruendungsjahr":1360,
+    "einwohnerzahl":"35.267 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.009722222222,50.930555555556 ]
+    },
+    "properties": {
+    "city":"Bad Köstritz",
+    "gruendungsjahr":1364,
+    "einwohnerzahl":"3571 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.681372,50.555894 ]
+    },
+    "properties": {
+    "city":"Fulda",
+    "gruendungsjahr":743,
+    "einwohnerzahl":"67.973 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.463611111111,50.851944444444 ]
+    },
+    "properties": {
+    "city":"Meerane",
+    "gruendungsjahr":1361,
+    "einwohnerzahl":"14.481 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.2222222222222,49.141666666667 ]
+    },
+    "properties": {
+    "city":"Heilbronn",
+    "gruendungsjahr":741,
+    "einwohnerzahl":"125.113 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.260277777778,49.704722222222 ]
+    },
+    "properties": {
+    "city":"Iphofen",
+    "gruendungsjahr":741,
+    "einwohnerzahl":"4587 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.160277777778,49.801388888889 ]
+    },
+    "properties": {
+    "city":"Dettelbach",
+    "gruendungsjahr":741,
+    "einwohnerzahl":"7260 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.058055555556,49.719722222222 ]
+    },
+    "properties": {
+    "city":"Forchheim",
+    "gruendungsjahr":805,
+    "einwohnerzahl":"32.125 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.9289583333333,49.868333333333 ]
+    },
+    "properties": {
+    "city":"Groß-Umstadt",
+    "gruendungsjahr":766,
+    "einwohnerzahl":"21.104 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.05226,51.89504 ]
+    },
+    "properties": {
+    "city":"Halberstadt",
+    "gruendungsjahr":804,
+    "einwohnerzahl":"40.871 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.616666666667,52.133333333333 ]
+    },
+    "properties": {
+    "city":"Magdeburg",
+    "gruendungsjahr":805,
+    "einwohnerzahl":"238.478 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.974444444444,48.934722222222 ]
+    },
+    "properties": {
+    "city":"Pappenheim",
+    "gruendungsjahr":802,
+    "einwohnerzahl":"4076 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.787222222222,52.423055555556 ]
+    },
+    "properties": {
+    "city":"Wolfsburg",
+    "gruendungsjahr":1938,
+    "einwohnerzahl":"123.914 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.916666666667,50.416666666667 ]
+    },
+    "properties": {
+    "city":"Eisfeld",
+    "gruendungsjahr":802,
+    "einwohnerzahl":"7714 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.9833333333333,51.033333333333 ]
+    },
+    "properties": {
+    "city":"Leverkusen",
+    "gruendungsjahr":1930,
+    "einwohnerzahl":"163.577 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.1688888888889,51.250833333333 ]
+    },
+    "properties": {
+    "city":"Wuppertal",
+    "gruendungsjahr":1929,
+    "einwohnerzahl":"353.590 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.029166666667,50.978055555556 ]
+    },
+    "properties": {
+    "city":"Erfurt",
+    "gruendungsjahr":742,
+    "einwohnerzahl":"212.988 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6247222222222,48.168055555556 ]
+    },
+    "properties": {
+    "city":"Rottweil",
+    "gruendungsjahr":73,
+    "einwohnerzahl":"25.204 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.281388888889,48.454444444444 ]
+    },
+    "properties": {
+    "city":"Günzburg",
+    "gruendungsjahr":70,
+    "einwohnerzahl":"20.355 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.3969444444444,53.106944444444 ]
+    },
+    "properties": {
+    "city":"Rotenburg (Wümme)",
+    "gruendungsjahr":1929,
+    "einwohnerzahl":"21.694 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.061388888889,52.395833333333 ]
+    },
+    "properties": {
+    "city":"Potsdam",
+    "gruendungsjahr":1938,
+    "einwohnerzahl":"175.710 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6091666666667,49.471944444444 ]
+    },
+    "properties": {
+    "city":"Ladenburg",
+    "gruendungsjahr":74,
+    "einwohnerzahl":"11.532 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.776666666667,51.835833333333 ]
+    },
+    "properties": {
+    "city":"Wernigerode",
+    "gruendungsjahr":1121,
+    "einwohnerzahl":"32.837 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.138333333333,50.495 ]
+    },
+    "properties": {
+    "city":"Plauen",
+    "gruendungsjahr":1122,
+    "einwohnerzahl":"65.148 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.2758333333333,48.808611111111 ]
+    },
+    "properties": {
+    "city":"Fellbach",
+    "gruendungsjahr":1121,
+    "einwohnerzahl":"45.783 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.608888888889,51.334722222222 ]
+    },
+    "properties": {
+    "city":"Brandis",
+    "gruendungsjahr":1121,
+    "einwohnerzahl":"9626 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.061111111111,50.773333333333 ]
+    },
+    "properties": {
+    "city":"Weida",
+    "gruendungsjahr":1122,
+    "einwohnerzahl":"8602 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.563055555556,52.408888888889 ]
+    },
+    "properties": {
+    "city":"Brandenburg an der Havel",
+    "gruendungsjahr":929,
+    "einwohnerzahl":"71.886 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.746111111111,50.736388888889 ]
+    },
+    "properties": {
+    "city":"Neustadt an der Orla",
+    "gruendungsjahr":1120,
+    "einwohnerzahl":"8143 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.3583333333333,50.922222222222 ]
+    },
+    "properties": {
+    "city":"Jülich",
+    "gruendungsjahr":50,
+    "einwohnerzahl":"32.505 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4775,51.163611111111 ]
+    },
+    "properties": {
+    "city":"Meißen",
+    "gruendungsjahr":929,
+    "einwohnerzahl":"28.061 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.646666666667,51.108055555556 ]
+    },
+    "properties": {
+    "city":"Bad Langensalza",
+    "gruendungsjahr":932,
+    "einwohnerzahl":"17.523 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.791388888889,51.500277777778 ]
+    },
+    "properties": {
+    "city":"Nordhausen",
+    "gruendungsjahr":927,
+    "einwohnerzahl":"42.228 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.280833333333,50.9 ]
+    },
+    "properties": {
+    "city":"Bad Berka",
+    "gruendungsjahr":1119,
+    "einwohnerzahl":"7559 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.24,50.0825 ]
+    },
+    "properties": {
+    "city":"Wiesbaden",
+    "gruendungsjahr":121,
+    "einwohnerzahl":"278.654 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.4975,49.835833333333 ]
+    },
+    "properties": {
+    "city":"Riedstadt",
+    "gruendungsjahr":2007,
+    "einwohnerzahl":"23.591 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.8384722222222,49.898472222222 ]
+    },
+    "properties": {
+    "city":"Dieburg",
+    "gruendungsjahr":125,
+    "einwohnerzahl":"15.549 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.246944444444,51.860555555556 ]
+    },
+    "properties": {
+    "city":"Dessau-Roßlau",
+    "gruendungsjahr":2007,
+    "einwohnerzahl":"82.111 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.571111111111,54.154166666667 ]
+    },
+    "properties": {
+    "city":"Marlow",
+    "gruendungsjahr":1218,
+    "einwohnerzahl":"4577 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.8838888888889,50.320277777778 ]
+    },
+    "properties": {
+    "city":"Florstadt",
+    "gruendungsjahr":2007,
+    "einwohnerzahl":"8702 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.5072222222222,50.300277777778 ]
+    },
+    "properties": {
+    "city":"Neu-Anspach",
+    "gruendungsjahr":2007,
+    "einwohnerzahl":"14.704 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.580833333333,50.983333333333 ]
+    },
+    "properties": {
+    "city":"Tharandt",
+    "gruendungsjahr":1216,
+    "einwohnerzahl":"5433 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.666666666667,50.893333333333 ]
+    },
+    "properties": {
+    "city":"Dippoldiswalde",
+    "gruendungsjahr":1218,
+    "einwohnerzahl":"14.447 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.8575,50.954722222222 ]
+    },
+    "properties": {
+    "city":"Dohna",
+    "gruendungsjahr":1007,
+    "einwohnerzahl":"6264 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.072777777778,51.993333333333 ]
+    },
+    "properties": {
+    "city":"Jüterbog",
+    "gruendungsjahr":1007,
+    "einwohnerzahl":"12.393 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.008611111111,50.394444444444 ]
+    },
+    "properties": {
+    "city":"Schalkau",
+    "gruendungsjahr":1011,
+    "einwohnerzahl":"2882 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.990277777778,49.478333333333 ]
+    },
+    "properties": {
+    "city":"Fürth",
+    "gruendungsjahr":1007,
+    "einwohnerzahl":"126.526 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.3325,52.6075 ]
+    },
+    "properties": {
+    "city":"Rathenow",
+    "gruendungsjahr":1216,
+    "einwohnerzahl":"24.309 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.366666666667,50.891944444444 ]
+    },
+    "properties": {
+    "city":"Ruhla",
+    "gruendungsjahr":1355,
+    "einwohnerzahl":"5557 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.732777777778,50.828055555556 ]
+    },
+    "properties": {
+    "city":"Ohrdruf",
+    "gruendungsjahr":723,
+    "einwohnerzahl":"9786 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.616666666667,50.933333333333 ]
+    },
+    "properties": {
+    "city":"Seifhennersdorf",
+    "gruendungsjahr":1357,
+    "einwohnerzahl":"3707 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.932222222222,51.014722222222 ]
+    },
+    "properties": {
+    "city":"Ostritz",
+    "gruendungsjahr":1007,
+    "einwohnerzahl":"2307 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.9475,51.229166666667 ]
+    },
+    "properties": {
+    "city":"Greußen",
+    "gruendungsjahr":1353,
+    "einwohnerzahl":"3557 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.9230555555556,50.797777777778 ]
+    },
+    "properties": {
+    "city":"Amöneburg",
+    "gruendungsjahr":721,
+    "einwohnerzahl":"5150 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.9,50.116666666667 ]
+    },
+    "properties": {
+    "city":"Hammelburg",
+    "gruendungsjahr":716,
+    "einwohnerzahl":"11.060 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.9294444444444,49.794444444444 ]
+    },
+    "properties": {
+    "city":"Würzburg",
+    "gruendungsjahr":704,
+    "einwohnerzahl":"126.635 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.999722222222,50.101388888889 ]
+    },
+    "properties": {
+    "city":"Bad Staffelstein",
+    "gruendungsjahr":800,
+    "einwohnerzahl":"10.359 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.538055555556,50.396388888889 ]
+    },
+    "properties": {
+    "city":"Römhild",
+    "gruendungsjahr":800,
+    "einwohnerzahl":"6922 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.3166666666667,51.55 ]
+    },
+    "properties": {
+    "city":"Castrop-Rauxel",
+    "gruendungsjahr":1926,
+    "einwohnerzahl":"73.989 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.091666666667,52.558333333333 ]
+    },
+    "properties": {
+    "city":"Falkensee",
+    "gruendungsjahr":1923,
+    "einwohnerzahl":"43.552 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.239444444444,50.084722222222 ]
+    },
+    "properties": {
+    "city":"Weismain",
+    "gruendungsjahr":800,
+    "einwohnerzahl":"4812 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.235,52.923333333333 ]
+    },
+    "properties": {
+    "city":"Verden (Aller)",
+    "gruendungsjahr":800,
+    "einwohnerzahl":"27.747 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.946388888889,50.834166666667 ]
+    },
+    "properties": {
+    "city":"Arnstadt",
+    "gruendungsjahr":704,
+    "einwohnerzahl":"27.316 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.512777777778,51.022777777778 ]
+    },
+    "properties": {
+    "city":"Apolda",
+    "gruendungsjahr":1119,
+    "einwohnerzahl":"22.163 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.980277777778,51.750277777778 ]
+    },
+    "properties": {
+    "city":"Köthen (Anhalt)",
+    "gruendungsjahr":1115,
+    "einwohnerzahl":"26.157 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1058333333333,50.768333333333 ]
+    },
+    "properties": {
+    "city":"Kirtorf",
+    "gruendungsjahr":917,
+    "einwohnerzahl":"3164 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.6527777777778,48.7025 ]
+    },
+    "properties": {
+    "city":"Göppingen",
+    "gruendungsjahr":1110,
+    "einwohnerzahl":"57.094 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.43,51.907222222222 ]
+    },
+    "properties": {
+    "city":"Goslar",
+    "gruendungsjahr":922,
+    "einwohnerzahl":"51.128 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.8305555555556,48.624444444444 ]
+    },
+    "properties": {
+    "city":"Geislingen an der Steige",
+    "gruendungsjahr":1108,
+    "einwohnerzahl":"28.021 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.5,51.316666666667 ]
+    },
+    "properties": {
+    "city":"Kassel",
+    "gruendungsjahr":913,
+    "einwohnerzahl":"200.736 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.264,50.483 ]
+    },
+    "properties": {
+    "city":"Weilburg",
+    "gruendungsjahr":906,
+    "einwohnerzahl":"13.022 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.226111111111,49.865833333333 ]
+    },
+    "properties": {
+    "city":"Volkach",
+    "gruendungsjahr":906,
+    "einwohnerzahl":"8811 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.2027777777778,49.908333333333 ]
+    },
+    "properties": {
+    "city":"Nieder-Olm",
+    "gruendungsjahr":2006,
+    "einwohnerzahl":"9954 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.891666666667,49.891666666667 ]
+    },
+    "properties": {
+    "city":"Bamberg",
+    "gruendungsjahr":902,
+    "einwohnerzahl":"77.179 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.150833333333,51.792777777778 ]
+    },
+    "properties": {
+    "city":"Quedlinburg",
+    "gruendungsjahr":922,
+    "einwohnerzahl":"24.216 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.2483333333333,49.020555555556 ]
+    },
+    "properties": {
+    "city":"Hagenbach",
+    "gruendungsjahr":2006,
+    "einwohnerzahl":"5416 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.1161111111111,49.751666666667 ]
+    },
+    "properties": {
+    "city":"Alzey",
+    "gruendungsjahr":223,
+    "einwohnerzahl":"18.333 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.736928,53.415415 ]
+    },
+    "properties": {
+    "city":"Wiesmoor",
+    "gruendungsjahr":2006,
+    "einwohnerzahl":"13.110 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.236944444444,52.754444444444 ]
+    },
+    "properties": {
+    "city":"Oranienburg",
+    "gruendungsjahr":1216,
+    "einwohnerzahl":"43.982 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.5322222222222,52.020416666667 ]
+    },
+    "properties": {
+    "city":"Bielefeld",
+    "gruendungsjahr":1214,
+    "einwohnerzahl":"332.552 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.135277777778,49.696388888889 ]
+    },
+    "properties": {
+    "city":"Marktsteft",
+    "gruendungsjahr":1216,
+    "einwohnerzahl":"1969 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.11,49.328333333333 ]
+    },
+    "properties": {
+    "city":"Schwandorf",
+    "gruendungsjahr":1006,
+    "einwohnerzahl":"28.730 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.561111111111,51.619166666667 ]
+    },
+    "properties": {
+    "city":"Doberlug-Kirchhain",
+    "gruendungsjahr":1005,
+    "einwohnerzahl":"9033 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.165,50.753611111111 ]
+    },
+    "properties": {
+    "city":"Berga/Elster",
+    "gruendungsjahr":1216,
+    "einwohnerzahl":"3339 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.328055555556,50.241111111111 ]
+    },
+    "properties": {
+    "city":"Kronach",
+    "gruendungsjahr":1003,
+    "einwohnerzahl":"16.877 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.0147611111111,51.458069444444 ]
+    },
+    "properties": {
+    "city":"Essen",
+    "gruendungsjahr":1003,
+    "einwohnerzahl":"583.393 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.225833333333,51.353055555556 ]
+    },
+    "properties": {
+    "city":"Strehla",
+    "gruendungsjahr":1002,
+    "einwohnerzahl":"3728 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.4836111111111,52.674166666667 ]
+    },
+    "properties": {
+    "city":"Haselünne",
+    "gruendungsjahr":1000,
+    "einwohnerzahl":"12.847 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1752777777778,47.663333333333 ]
+    },
+    "properties": {
+    "city":"Konstanz",
+    "gruendungsjahr":525,
+    "einwohnerzahl":"84.440 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.659166666667,51.105833333333 ]
+    },
+    "properties": {
+    "city":"Radebeul",
+    "gruendungsjahr":1349,
+    "einwohnerzahl":"33.954 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.423888888889,51.181388888889 ]
+    },
+    "properties": {
+    "city":"Bautzen",
+    "gruendungsjahr":1002,
+    "einwohnerzahl":"39.429 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.453,51.643 ]
+    },
+    "properties": {
+    "city":"Bad Karlshafen",
+    "gruendungsjahr":1699,
+    "einwohnerzahl":"3641 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.013888888889,51.141944444444 ]
+    },
+    "properties": {
+    "city":"Großröhrsdorf",
+    "gruendungsjahr":1349,
+    "einwohnerzahl":"9509 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.723888888889,50.431111111111 ]
+    },
+    "properties": {
+    "city":"Johanngeorgenstadt",
+    "gruendungsjahr":1654,
+    "einwohnerzahl":"3991 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.071388888889,50.855833333333 ]
+    },
+    "properties": {
+    "city":"Flöha",
+    "gruendungsjahr":1346,
+    "einwohnerzahl":"10.767 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.138333333333,50.509166666667 ]
+    },
+    "properties": {
+    "city":"Neuhaus am Rennweg",
+    "gruendungsjahr":1607,
+    "einwohnerzahl":"9121 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.52,50.774166666667 ]
+    },
+    "properties": {
+    "city":"Orlamünde",
+    "gruendungsjahr":1344,
+    "einwohnerzahl":"1117 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.002222222222,50.58 ]
+    },
+    "properties": {
+    "city":"Annaberg-Buchholz",
+    "gruendungsjahr":1496,
+    "einwohnerzahl":"20.000 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6970833333333,50.055763888889 ]
+    },
+    "properties": {
+    "city":"Neu-Isenburg",
+    "gruendungsjahr":1699,
+    "einwohnerzahl":"37.512 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.4477777777778,49.483055555556 ]
+    },
+    "properties": {
+    "city":"Ludwigshafen am Rhein",
+    "gruendungsjahr":1853,
+    "einwohnerzahl":"168.497 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.4239888888889,53.788125 ]
+    },
+    "properties": {
+    "city":"Glückstadt",
+    "gruendungsjahr":1617,
+    "einwohnerzahl":"11.143 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.0883333333333,54.376388888889 ]
+    },
+    "properties": {
+    "city":"Friedrichstadt",
+    "gruendungsjahr":1621,
+    "einwohnerzahl":"2564 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.4791666666667,47.654166666667 ]
+    },
+    "properties": {
+    "city":"Friedrichshafen",
+    "gruendungsjahr":1811,
+    "einwohnerzahl":"60.088 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.5780388888889,53.541938888889 ]
+    },
+    "properties": {
+    "city":"Bremerhaven",
+    "gruendungsjahr":1827,
+    "einwohnerzahl":"113.026 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.648055555556,50.996944444444 ]
+    },
+    "properties": {
+    "city":"Freital",
+    "gruendungsjahr":1921,
+    "einwohnerzahl":"39.300 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.529444444444,51.038888888889 ]
+    },
+    "properties": {
+    "city":"Neusalza-Spremberg",
+    "gruendungsjahr":1920,
+    "einwohnerzahl":"3410 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.2386111111111,52.666666666667 ]
+    },
+    "properties": {
+    "city":"Lohne (Oldenburg)",
+    "gruendungsjahr":1907,
+    "einwohnerzahl":"26.509 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.1075,53.521944444444 ]
+    },
+    "properties": {
+    "city":"Wilhelmshaven",
+    "gruendungsjahr":1856,
+    "einwohnerzahl":"76.316 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.003333333333,50.648611111111 ]
+    },
+    "properties": {
+    "city":"Gehren",
+    "gruendungsjahr":1105,
+    "einwohnerzahl":"3.782",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.5641666666667,51.336944444444 ]
+    },
+    "properties": {
+    "city":"Krefeld",
+    "gruendungsjahr":1105,
+    "einwohnerzahl":"226.699 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.652777777778,50.66 ]
+    },
+    "properties": {
+    "city":"Zella-Mehlis",
+    "gruendungsjahr":1919,
+    "einwohnerzahl":"12.865 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.645277777778,51.144722222222 ]
+    },
+    "properties": {
+    "city":"Bad Lausick",
+    "gruendungsjahr":1106,
+    "einwohnerzahl":"8032 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1922,48.8975 ]
+    },
+    "properties": {
+    "city":"Ludwigsburg",
+    "gruendungsjahr":1718,
+    "einwohnerzahl":"93.593 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.7025,47.918055555556 ]
+    },
+    "properties": {
+    "city":"Bad Krozingen",
+    "gruendungsjahr":2005,
+    "einwohnerzahl":"19.457 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.7184337,53.6977863 ]
+    },
+    "properties": {
+    "city":"Tornesch",
+    "gruendungsjahr":2005,
+    "einwohnerzahl":"13.652 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.9483333333333,53.540277777778 ]
+    },
+    "properties": {
+    "city":"Schortens",
+    "gruendungsjahr":2004,
+    "einwohnerzahl":"20.451 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.2375,51.136666666667 ]
+    },
+    "properties": {
+    "city":"Treffurt",
+    "gruendungsjahr":1104,
+    "einwohnerzahl":"6158 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.83,51.29 ]
+    },
+    "properties": {
+    "city":"Niesky",
+    "gruendungsjahr":1742,
+    "einwohnerzahl":"9444 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.741666666667,51.016666666667 ]
+    },
+    "properties": {
+    "city":"Herrnhut",
+    "gruendungsjahr":1722,
+    "einwohnerzahl":"5981 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.2763888888889,48.868888888889 ]
+    },
+    "properties": {
+    "city":"Remseck am Neckar",
+    "gruendungsjahr":2004,
+    "einwohnerzahl":"26.174 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.386666666667,50.812222222222 ]
+    },
+    "properties": {
+    "city":"Crimmitschau",
+    "gruendungsjahr":1212,
+    "einwohnerzahl":"18.746 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.8833333333333,50.808611111111 ]
+    },
+    "properties": {
+    "city":"Kirchen (Sieg)",
+    "gruendungsjahr":2004,
+    "einwohnerzahl":"8567 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.523888888889,51.457777777778 ]
+    },
+    "properties": {
+    "city":"Elsterwerda",
+    "gruendungsjahr":1211,
+    "einwohnerzahl":"7975 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.863333333333,50.735277777778 ]
+    },
+    "properties": {
+    "city":"Triptis",
+    "gruendungsjahr":1212,
+    "einwohnerzahl":"3711 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.708055555556,50.329722222222 ]
+    },
+    "properties": {
+    "city":"Naila",
+    "gruendungsjahr":1343,
+    "einwohnerzahl":"7718 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.1025,49.239722222222 ]
+    },
+    "properties": {
+    "city":"Bad Rappenau",
+    "gruendungsjahr":1343,
+    "einwohnerzahl":"21.186 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.555833333333,50.8975 ]
+    },
+    "properties": {
+    "city":"Waltershausen",
+    "gruendungsjahr":1209,
+    "einwohnerzahl":"13.024 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.969722222222,50.646111111111 ]
+    },
+    "properties": {
+    "city":"Ehrenfriedersdorf",
+    "gruendungsjahr":1339,
+    "einwohnerzahl":"4757 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.725,50.705555555556 ]
+    },
+    "properties": {
+    "city":"Oberhof",
+    "gruendungsjahr":1470,
+    "einwohnerzahl":"1634 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.15,50.916666666667 ]
+    },
+    "properties": {
+    "city":"Bad Schandau",
+    "gruendungsjahr":1445,
+    "einwohnerzahl":"3625 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.75,50.866666666667 ]
+    },
+    "properties": {
+    "city":"Limbach-Oberfrohna",
+    "gruendungsjahr":1415,
+    "einwohnerzahl":"24.066 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.4111111111111,48.463333333333 ]
+    },
+    "properties": {
+    "city":"Freudenstadt",
+    "gruendungsjahr":1599,
+    "einwohnerzahl":"23.150 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.9313888888889,54.63 ]
+    },
+    "properties": {
+    "city":"Arnis",
+    "gruendungsjahr":1472,
+    "einwohnerzahl":"280 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.159166666667,50.475277777778 ]
+    },
+    "properties": {
+    "city":"Lauscha",
+    "gruendungsjahr":1597,
+    "einwohnerzahl":"3363 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.8825,54.183611111111 ]
+    },
+    "properties": {
+    "city":"Franzburg",
+    "gruendungsjahr":1587,
+    "einwohnerzahl":"1394 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.6311111111111,51.906111111111 ]
+    },
+    "properties": {
+    "city":"Schloß Holte-Stukenbrock",
+    "gruendungsjahr":2003,
+    "einwohnerzahl":"26.772 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.4043,49.014 ]
+    },
+    "properties": {
+    "city":"Karlsruhe",
+    "gruendungsjahr":1715,
+    "einwohnerzahl":"311.919 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.171666666667,51.581388888889 ]
+    },
+    "properties": {
+    "city":"Welzow",
+    "gruendungsjahr":1547,
+    "einwohnerzahl":"3490 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.75,52.416666666667 ]
+    },
+    "properties": {
+    "city":"Erkner",
+    "gruendungsjahr":1579,
+    "einwohnerzahl":"11.818 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.182655,50.901571 ]
+    },
+    "properties": {
+    "city":"Rösrath",
+    "gruendungsjahr":2001,
+    "einwohnerzahl":"28.666 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.278055555556,50.966388888889 ]
+    },
+    "properties": {
+    "city":"Großschirma",
+    "gruendungsjahr":2003,
+    "einwohnerzahl":"5613 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.975833333333,50.986666666667 ]
+    },
+    "properties": {
+    "city":"Mittweida",
+    "gruendungsjahr":1209,
+    "einwohnerzahl":"14.852 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.199722222222,50.654722222222 ]
+    },
+    "properties": {
+    "city":"Greiz",
+    "gruendungsjahr":1209,
+    "einwohnerzahl":"20.517 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.175555555556,50.3575 ]
+    },
+    "properties": {
+    "city":"Sonneberg",
+    "gruendungsjahr":1207,
+    "einwohnerzahl":"23.756 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.875,52.519722222222 ]
+    },
+    "properties": {
+    "city":"Burgwedel",
+    "gruendungsjahr":2003,
+    "einwohnerzahl":"20.474 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.321944444444,50.869166666667 ]
+    },
+    "properties": {
+    "city":"Brand-Erbisdorf",
+    "gruendungsjahr":1209,
+    "einwohnerzahl":"9544 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.108611111111,51.2975 ]
+    },
+    "properties": {
+    "city":"Oschatz",
+    "gruendungsjahr":1200,
+    "einwohnerzahl":"14.450 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.449166666667,50.561388888889 ]
+    },
+    "properties": {
+    "city":"Leutenberg",
+    "gruendungsjahr":1326,
+    "einwohnerzahl":"2115 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.234722222222,50.281944444444 ]
+    },
+    "properties": {
+    "city":"Bad Elster",
+    "gruendungsjahr":1324,
+    "einwohnerzahl":"3668 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.1,50.814444444444 ]
+    },
+    "properties": {
+    "city":"Augustusburg",
+    "gruendungsjahr":1206,
+    "einwohnerzahl":"4538 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.693333333333,50.610833333333 ]
+    },
+    "properties": {
+    "city":"Suhl",
+    "gruendungsjahr":1318,
+    "einwohnerzahl":"37.321 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.534166666667,51.291944444444 ]
+    },
+    "properties": {
+    "city":"Großenhain",
+    "gruendungsjahr":1205,
+    "einwohnerzahl":"18.230 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.335277777778,51.095 ]
+    },
+    "properties": {
+    "city":"Lucka",
+    "gruendungsjahr":1320,
+    "einwohnerzahl":"3742 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.064167,51.368333 ]
+    },
+    "properties": {
+    "city":"Bernsdorf",
+    "gruendungsjahr":1403,
+    "einwohnerzahl":"6.522",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.970833333333,50.419166666667 ]
+    },
+    "properties": {
+    "city":"Oberwiesenthal",
+    "gruendungsjahr":1527,
+    "einwohnerzahl":"2108 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.866111111111,51.453055555556 ]
+    },
+    "properties": {
+    "city":"Ruhland",
+    "gruendungsjahr":1317,
+    "einwohnerzahl":"3655 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.030833333333,52.788055555556 ]
+    },
+    "properties": {
+    "city":"Bad Freienwalde (Oder)",
+    "gruendungsjahr":1316,
+    "einwohnerzahl":"12.327 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.611388888889,50.974444444444 ]
+    },
+    "properties": {
+    "city":"Ebersbach-Neugersdorf",
+    "gruendungsjahr":1306,
+    "einwohnerzahl":"12.072 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.6480555555556,51.020833333333 ]
+    },
+    "properties": {
+    "city":"Bergneustadt",
+    "gruendungsjahr":1301,
+    "einwohnerzahl":"18.876 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.5938888888889,50.356666666667 ]
+    },
+    "properties": {
+    "city":"Koblenz",
+    "gruendungsjahr":-9,
+    "einwohnerzahl":"113.844 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.73836,51.049259 ]
+    },
+    "properties": {
+    "city":"Dresden",
+    "gruendungsjahr":1206,
+    "einwohnerzahl":"551.072 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.4341666666667,49.317222222222 ]
+    },
+    "properties": {
+    "city":"Speyer",
+    "gruendungsjahr":-10,
+    "einwohnerzahl":"50.931 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.073611111111,51.783611111111 ]
+    },
+    "properties": {
+    "city":"Vetschau/Spreewald",
+    "gruendungsjahr":1302,
+    "einwohnerzahl":"8182 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.85,50.433333333333 ]
+    },
+    "properties": {
+    "city":"Gefell",
+    "gruendungsjahr":1303,
+    "einwohnerzahl":"2465 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.0998138888889,50.733991666667 ]
+    },
+    "properties": {
+    "city":"Bonn",
+    "gruendungsjahr":-12,
+    "einwohnerzahl":"325.490 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.4505555555556,51.660277777778 ]
+    },
+    "properties": {
+    "city":"Xanten",
+    "gruendungsjahr":-12,
+    "einwohnerzahl":"21.614 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.2711111111111,50 ]
+    },
+    "properties": {
+    "city":"Mainz",
+    "gruendungsjahr":-13,
+    "einwohnerzahl":"215.110 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.3608333333333,49.633055555556 ]
+    },
+    "properties": {
+    "city":"Worms",
+    "gruendungsjahr":-14,
+    "einwohnerzahl":"83.081 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.379444444444,51.571666666667 ]
+    },
+    "properties": {
+    "city":"Spremberg",
+    "gruendungsjahr":1301,
+    "einwohnerzahl":"22.456 ",
+    "jahr_sollte_ueberprueft_werden":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.6439,49.7596 ]
+    },
+    "properties": {
+    "city":"Trier",
+    "gruendungsjahr":-17,
+    "einwohnerzahl":"110.013 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.9569444444444,50.938055555556 ]
+    },
+    "properties": {
+    "city":"Köln",
+    "gruendungsjahr":-19,
+    "einwohnerzahl":"1.080.394 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.6913888888889,51.198611111111 ]
+    },
+    "properties": {
+    "city":"Neuss",
+    "gruendungsjahr":-16,
+    "einwohnerzahl":"153.810 ",
+    "jahr_sollte_ueberprueft_werden":"0"
+    }
+  }
+]
+}
